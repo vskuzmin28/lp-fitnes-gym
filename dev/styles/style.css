@@ -39,6 +39,110 @@ a {
   float: none !important;
 }
 @media only screen and (min-width: 320px) and (max-width: 1100px) {
+  .nav {
+    height: 58px;
+  }
+  .nav ul {
+    list-style: none;
+    height: auto;
+  }
+  .nav ul li {
+    display: inline-block;
+    height: 58px;
+  }
+  .nav ul li a,
+  .nav ul li a:hover {
+    padding: 0 72px;
+    height: 58px;
+    float: left;
+    font: 20px 'mullermedium';
+    color: #282828;
+    text-decoration: none;
+    line-height: 58px;
+    transition: none;
+  }
+  .nav ul li a:hover,
+  .nav ul li a:hover:hover {
+    background: #80a535;
+    color: #fff;
+    position: relative;
+  }
+  .nav ul li a:hover:after,
+  .nav ul li a:hover:hover:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-top: 58px solid #fff;
+    border-right: 28px solid #80a535;
+  }
+  .nav ul li a:hover:before,
+  .nav ul li a:hover:hover:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0px;
+    border-bottom: 58px solid #fff;
+    border-left: 28px solid #80a535;
+  }
+  .nav ul li a:nth-child(2),
+  .nav ul li a:hover:nth-child(2) {
+    padding: 0 20px;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .nav {
+    height: 58px;
+  }
+  .nav ul {
+    list-style: none;
+    height: auto;
+  }
+  .nav ul li {
+    display: inline-block;
+    height: 58px;
+  }
+  .nav ul li a,
+  .nav ul li a:hover {
+    padding: 0 72px;
+    height: 58px;
+    float: left;
+    font: 20px 'mullermedium';
+    color: #282828;
+    text-decoration: none;
+    line-height: 58px;
+    transition: none;
+  }
+  .nav ul li a:hover,
+  .nav ul li a:hover:hover {
+    background: #80a535;
+    color: #fff;
+    position: relative;
+  }
+  .nav ul li a:hover:after,
+  .nav ul li a:hover:hover:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-top: 58px solid #fff;
+    border-right: 28px solid #80a535;
+  }
+  .nav ul li a:hover:before,
+  .nav ul li a:hover:hover:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0px;
+    border-bottom: 58px solid #fff;
+    border-left: 28px solid #80a535;
+  }
+  .nav ul li a:nth-child(2),
+  .nav ul li a:hover:nth-child(2) {
+    padding: 0 20px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 1100px) {
   .popup {
     position: relative;
     width: 90%;
