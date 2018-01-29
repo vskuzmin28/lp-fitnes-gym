@@ -1,5 +1,51 @@
 @media only screen and (min-width : @mobile) and  (max-width : @desktop) {
 
+	// main screen
 
+	.main-screen {
+		height: 906px;
+		background: url('../img/main-screen.jpg') no-repeat center;
+		background-size: cover;
+		color: @black;
+
+		h3 {
+			margin-bottom: 70px;
+			padding: 32px;
+			display: inline-block;
+			background-color: rgba(0, 0, 0, 0.6);
+			font: 56px 'mullerbold';
+			color: @white;
+		}
+
+		ul {
+			height: auto;
+			//overflow: hidden;
+			list-style: none;
+
+			li {
+				position: relative;
+				height: 50px;
+				margin-bottom: 30px;
+
+				&:before {
+					margin-left: 40px;
+					position: absolute;
+					content: "+";
+					font: 30px 'mullermedium';
+					color: @white;
+				}
+
+				span {
+					padding: 18px 64px;
+					background-color: rgba(0, 0, 0, 0.6);
+					font: 30px 'mullermedium';
+					color: @white;					
+				}
+
+			}
+
+		}
+
+	}
 
 }

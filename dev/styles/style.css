@@ -34,6 +34,10 @@ a {
 .right {
   float: right;
 }
+ul {
+  -webkit-padding-start: 0px !important;
+  -moz-padding-start: 0px !important;
+}
 .no-margin {
   margin: 0 !important;
   float: none !important;
@@ -184,6 +188,82 @@ a {
     line-height: 130px;
   }
 }
+@media only screen and (min-width: 1100px) {
+  .main-screen {
+    height: 906px;
+    background: url('../img/main-screen.jpg') no-repeat center;
+    background-size: cover;
+    color: #000;
+  }
+  .main-screen h3 {
+    margin-bottom: 70px;
+    padding: 32px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.6);
+    font: 56px 'mullerbold';
+    color: #fff;
+  }
+  .main-screen ul {
+    height: auto;
+    list-style: none;
+  }
+  .main-screen ul li {
+    position: relative;
+    height: 50px;
+    margin-bottom: 30px;
+  }
+  .main-screen ul li:before {
+    margin-left: 40px;
+    position: absolute;
+    content: "+";
+    font: 30px 'mullermedium';
+    color: #fff;
+  }
+  .main-screen ul li span {
+    padding: 18px 64px;
+    background-color: rgba(0, 0, 0, 0.6);
+    font: 30px 'mullermedium';
+    color: #fff;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 1100px) {
+  .main-screen {
+    height: 906px;
+    background: url('../img/main-screen.jpg') no-repeat center;
+    background-size: cover;
+    color: #000;
+  }
+  .main-screen h3 {
+    margin-bottom: 70px;
+    padding: 32px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.6);
+    font: 56px 'mullerbold';
+    color: #fff;
+  }
+  .main-screen ul {
+    height: auto;
+    list-style: none;
+  }
+  .main-screen ul li {
+    position: relative;
+    height: 50px;
+    margin-bottom: 30px;
+  }
+  .main-screen ul li:before {
+    margin-left: 40px;
+    position: absolute;
+    content: "+";
+    font: 30px 'mullermedium';
+    color: #fff;
+  }
+  .main-screen ul li span {
+    padding: 18px 64px;
+    background-color: rgba(0, 0, 0, 0.6);
+    font: 30px 'mullermedium';
+    color: #fff;
+  }
+}
 @media only screen and (min-width: 320px) and (max-width: 1100px) {
   .nav {
     height: 58px;
@@ -286,12 +366,6 @@ a {
   .nav ul li a:nth-child(2),
   .nav ul li a:hover:nth-child(2) {
     padding: 0 20px;
-  }
-}
-@media only screen and (min-width: 1100px) {
-  .main-screen {
-    height: 906px;
-    background: #f00;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 1100px) {
