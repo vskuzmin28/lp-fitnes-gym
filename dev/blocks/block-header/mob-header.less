@@ -1,5 +1,127 @@
 @media only screen and (min-width : @mobile) and  (max-width : @desktop) {
 
+	// header
 
+	.header {
+		height: 130px;
+		background: @grey-dark;
+	}
+
+	// header logotype position
+
+	.header__logo {
+		margin: 19px 0 0 3px;
+	}
+
+	// logotype
+
+	.logo {
+		display: block;
+		width: 349px;
+		height: 91px;
+		background: url('../img/logo.png') no-repeat;
+	}
+
+	// title site
+
+	.title-site {
+		//height: 130px;
+
+		h2 {
+			font: 18px 'mullermedium';
+			//line-height: 130px;
+			color: @white;
+		}
+
+	}
+
+	// header title site position
+
+	.header__title-site {
+		margin: 0px 0 0 0;
+		height: 130px;
+
+		h2 {
+			line-height: 90px;
+		}
+
+	}
+
+	// header call button position
+
+	.header__call-button {
+		margin: 36px 0 0 0;
+		padding:  0 60px;
+		height: 56px;
+		line-height: 56px !important;
+	}
+
+	// button default
+
+	.btn {
+		display: inline-block;
+	}
+
+	// button green
+
+	.btn-green {
+		background-image: -webkit-gradient(linear, 287 0, 0 0, from(#80a535), color-stop(0.017, #80a635), color-stop(0.017, #81a536), color-stop(0.459, #93b241), color-stop(0.466, #94b142), color-stop(0.487, #95b342), color-stop(0.759, #a4bb4b), color-stop(0.759, #a3bc4a), color-stop(0.829, #a6be4c), color-stop(0.836, #a7bd4d), color-stop(0.916, #a9c04e), color-stop(0.916, #aabf4f));
+		background-image: -webkit-linear-gradient(180deg, #80a535, #80a635 1.7%, #81a536 1.7%, #93b241 45.9%, #94b142 46.6%, #95b342 48.7%, #a4bb4b 75.9%, #a3bc4a 75.9%, #a6be4c 82.9%, #a7bd4d 83.6%, #a9c04e 91.6%, #aabf4f 91.6%);
+		background-image: -moz-linear-gradient(180deg, #80a535, #80a635 1.7%, #81a536 1.7%, #93b241 45.9%, #94b142 46.6%, #95b342 48.7%, #a4bb4b 75.9%, #a3bc4a 75.9%, #a6be4c 82.9%, #a7bd4d 83.6%, #a9c04e 91.6%, #aabf4f 91.6%);
+		background-image: -o-linear-gradient(180deg, #80a535, #80a635 1.7%, #81a536 1.7%, #93b241 45.9%, #94b142 46.6%, #95b342 48.7%, #a4bb4b 75.9%, #a3bc4a 75.9%, #a6be4c 82.9%, #a7bd4d 83.6%, #a9c04e 91.6%, #aabf4f 91.6%);
+		background-image: linear-gradient(270deg, #80a535, #80a635 1.7%, #81a536 1.7%, #93b241 45.9%, #94b142 46.6%, #95b342 48.7%, #a4bb4b 75.9%, #a3bc4a 75.9%, #a6be4c 82.9%, #a7bd4d 83.6%, #a9c04e 91.6%, #aabf4f 91.6%);
+
+		// font setting
+
+		font: 20px 'mullermedium';
+		color: @white;
+		text-decoration: none;
+
+		// hover
+
+		&:hover {
+			background: @white;
+		}
+
+	}
+
+	// button sizes
+
+	.btn-small {
+		height: 30px;
+	}
+
+	.btn-normal {
+		height: 56px;
+		//line-height: 46px;
+	}
+
+	.btn-big {
+		height: 90px;
+	}
+
+	// phone number
+
+	.phone-number {
+		font: 22px 'mullermedium';
+		
+		a, a:hover {
+			color: @white;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+
+		}
+
+	}
+
+	// header phone number position
+
+	.header__phone-number {
+		margin: 0 0 0 0;
+		line-height: 130px;
+	}
 
 }

@@ -111,10 +111,77 @@ a {
     line-height: 130px;
   }
 }
-@media only screen and (min-width: 1100px) {
-  .main-screen {
-    height: 906px;
-    background: #f00;
+@media only screen and (min-width: 320px) and (max-width: 1100px) {
+  .header {
+    height: 130px;
+    background: #282828;
+  }
+  .header__logo {
+    margin: 19px 0 0 3px;
+  }
+  .logo {
+    display: block;
+    width: 349px;
+    height: 91px;
+    background: url('../img/logo.png') no-repeat;
+  }
+  .title-site h2 {
+    font: 18px 'mullermedium';
+    color: #fff;
+  }
+  .header__title-site {
+    margin: 0px 0 0 0;
+    height: 130px;
+  }
+  .header__title-site h2 {
+    line-height: 90px;
+  }
+  .header__call-button {
+    margin: 36px 0 0 0;
+    padding: 0 60px;
+    height: 56px;
+    line-height: 56px !important;
+  }
+  .btn {
+    display: inline-block;
+  }
+  .btn-green {
+    background-image: -webkit-gradient(linear, 287 0, 0 0, from(#80a535), color-stop(0.017, #80a635), color-stop(0.017, #81a536), color-stop(0.459, #93b241), color-stop(0.466, #94b142), color-stop(0.487, #95b342), color-stop(0.759, #a4bb4b), color-stop(0.759, #a3bc4a), color-stop(0.829, #a6be4c), color-stop(0.836, #a7bd4d), color-stop(0.916, #a9c04e), color-stop(0.916, #aabf4f));
+    background-image: -webkit-linear-gradient(180deg, #80a535, #80a635 1.7%, #81a536 1.7%, #93b241 45.9%, #94b142 46.6%, #95b342 48.7%, #a4bb4b 75.9%, #a3bc4a 75.9%, #a6be4c 82.9%, #a7bd4d 83.6%, #a9c04e 91.6%, #aabf4f 91.6%);
+    background-image: -moz-linear-gradient(180deg, #80a535, #80a635 1.7%, #81a536 1.7%, #93b241 45.9%, #94b142 46.6%, #95b342 48.7%, #a4bb4b 75.9%, #a3bc4a 75.9%, #a6be4c 82.9%, #a7bd4d 83.6%, #a9c04e 91.6%, #aabf4f 91.6%);
+    background-image: -o-linear-gradient(180deg, #80a535, #80a635 1.7%, #81a536 1.7%, #93b241 45.9%, #94b142 46.6%, #95b342 48.7%, #a4bb4b 75.9%, #a3bc4a 75.9%, #a6be4c 82.9%, #a7bd4d 83.6%, #a9c04e 91.6%, #aabf4f 91.6%);
+    background-image: linear-gradient(270deg, #80a535, #80a635 1.7%, #81a536 1.7%, #93b241 45.9%, #94b142 46.6%, #95b342 48.7%, #a4bb4b 75.9%, #a3bc4a 75.9%, #a6be4c 82.9%, #a7bd4d 83.6%, #a9c04e 91.6%, #aabf4f 91.6%);
+    font: 20px 'mullermedium';
+    color: #fff;
+    text-decoration: none;
+  }
+  .btn-green:hover {
+    background: #fff;
+  }
+  .btn-small {
+    height: 30px;
+  }
+  .btn-normal {
+    height: 56px;
+  }
+  .btn-big {
+    height: 90px;
+  }
+  .phone-number {
+    font: 22px 'mullermedium';
+  }
+  .phone-number a,
+  .phone-number a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  .phone-number a:hover,
+  .phone-number a:hover:hover {
+    text-decoration: underline;
+  }
+  .header__phone-number {
+    margin: 0 0 0 0;
+    line-height: 130px;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 1100px) {
@@ -219,6 +286,12 @@ a {
   .nav ul li a:nth-child(2),
   .nav ul li a:hover:nth-child(2) {
     padding: 0 20px;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .main-screen {
+    height: 906px;
+    background: #f00;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 1100px) {
