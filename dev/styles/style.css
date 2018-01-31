@@ -43,63 +43,211 @@ ul {
   float: none !important;
 }
 @media only screen and (min-width: 1100px) {
-  footer {
-    padding: 80px 0 80px 0;
-    background: #282828;
+  .dream-house {
+    height: auto;
+    background: #f9f9f9;
+    padding: 90px 0;
+  }
+  .dream-house__item-one {
+    margin-bottom: 112px;
+    float: left;
+    width: 1253px;
+    height: 367px;
+    background: url('../img/dream-house-item-one.png') no-repeat;
+  }
+  .dream-house__item-one__conteiner {
+    height: auto;
+    overflow: hidden;
+  }
+  .dream-house__item-one__conteiner__preview {
+    margin: 0 0 0 116px;
+    float: left;
+    width: 448px;
+    height: 335px;
+  }
+  .dream-house__item-one__conteiner__content {
+    margin: 0 0 0 95px;
+    float: left;
+    width: 400px;
+  }
+  .dream-house__item-one__conteiner__content h5,
+  .dream-house__item-one__conteiner__content span {
+    font: 36px 'muller_regularregular';
+    color: #363636;
+  }
+  .dream-house__item-one__conteiner__content p {
+    margin: 50px 0 0 0;
+    font: 24px 'muller_regularregular';
+    color: #363636;
+  }
+  .dream-house__item-one__conteiner__content span {
+    margin: 20px 0;
+    display: block;
+  }
+  .dream-house__item-one__conteiner__content a,
+  .dream-house__item-one__conteiner__content a:hover {
+    display: block;
+    width: 290px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+  }
+  .dream-house__item-one__conteiner__content a:hover,
+  .dream-house__item-one__conteiner__content a:hover:hover {
+    background: #000;
     color: #fff;
   }
-  .footer__column {
+  .dream-house__item-two {
+    float: right;
+    width: 1253px;
+    height: 367px;
+    background: url('../img/dream-house-item-two.png') no-repeat;
+  }
+  .dream-house__item-two__conteiner {
     height: auto;
+    overflow: hidden;
   }
-  .footer__column h4 {
-    margin-bottom: 30px;
+  .dream-house__item-two__conteiner__preview {
+    margin: 0 116px 0 0;
+    float: right;
+    width: 448px;
+    height: 335px;
+  }
+  .dream-house__item-two__conteiner__content {
+    margin: 0 95px 0 0;
+    float: right;
+    width: 400px;
+  }
+  .dream-house__item-two__conteiner__content h5,
+  .dream-house__item-two__conteiner__content span {
+    font: 36px 'muller_regularregular';
+    color: #363636;
+  }
+  .dream-house__item-two__conteiner__content p {
+    margin: 50px 0 0 0;
     font: 24px 'muller_regularregular';
-    color: #ececec;
+    color: #363636;
   }
-  .footer__column p {
-    font: 18px 'muller_regularregular';
-    color: #bdbdbd;
-    line-height: 26px;
+  .dream-house__item-two__conteiner__content span {
+    margin: 20px 0;
+    display: block;
   }
-  .footer__column p a,
-  .footer__column p a:hover {
-    color: #bdbdbd;
-    text-decoration: none;
+  .dream-house__item-two__conteiner__content a,
+  .dream-house__item-two__conteiner__content a:hover {
+    display: block;
+    width: 290px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
   }
-  .footer__column p a:hover,
-  .footer__column p a:hover:hover {
-    color: #bdbdbd;
-    text-decoration: underline;
+  .dream-house__item-two__conteiner__content a:hover,
+  .dream-house__item-two__conteiner__content a:hover:hover {
+    background: #000;
+    color: #fff;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 1100px) {
-  footer {
-    padding: 80px 0 80px 0;
-    background: #282828;
+  .dream-house {
+    height: auto;
+    background: #f9f9f9;
+    padding: 90px 0;
+  }
+  .dream-house__item-one {
+    margin-bottom: 112px;
+    float: left;
+    width: 1253px;
+    height: 367px;
+    background: url('../img/dream-house-item-one.png') no-repeat;
+  }
+  .dream-house__item-one__conteiner {
+    height: auto;
+    overflow: hidden;
+  }
+  .dream-house__item-one__conteiner__preview {
+    margin: 0 0 0 116px;
+    float: left;
+    width: 448px;
+    height: 335px;
+  }
+  .dream-house__item-one__conteiner__content {
+    margin: 0 0 0 95px;
+    float: left;
+    width: 400px;
+  }
+  .dream-house__item-one__conteiner__content h5,
+  .dream-house__item-one__conteiner__content span {
+    font: 36px 'muller_regularregular';
+    color: #363636;
+  }
+  .dream-house__item-one__conteiner__content p {
+    margin: 50px 0 0 0;
+    font: 24px 'muller_regularregular';
+    color: #363636;
+  }
+  .dream-house__item-one__conteiner__content span {
+    margin: 20px 0;
+    display: block;
+  }
+  .dream-house__item-one__conteiner__content a,
+  .dream-house__item-one__conteiner__content a:hover {
+    display: block;
+    width: 290px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+  }
+  .dream-house__item-one__conteiner__content a:hover,
+  .dream-house__item-one__conteiner__content a:hover:hover {
+    background: #000;
     color: #fff;
   }
-  .footer__column {
+  .dream-house__item-two {
+    float: right;
+    width: 1253px;
+    height: 367px;
+    background: url('../img/dream-house-item-two.png') no-repeat;
+  }
+  .dream-house__item-two__conteiner {
     height: auto;
+    overflow: hidden;
   }
-  .footer__column h4 {
-    margin-bottom: 30px;
+  .dream-house__item-two__conteiner__preview {
+    margin: 0 116px 0 0;
+    float: right;
+    width: 448px;
+    height: 335px;
+  }
+  .dream-house__item-two__conteiner__content {
+    margin: 0 95px 0 0;
+    float: right;
+    width: 400px;
+  }
+  .dream-house__item-two__conteiner__content h5,
+  .dream-house__item-two__conteiner__content span {
+    font: 36px 'muller_regularregular';
+    color: #363636;
+  }
+  .dream-house__item-two__conteiner__content p {
+    margin: 50px 0 0 0;
     font: 24px 'muller_regularregular';
-    color: #ececec;
+    color: #363636;
   }
-  .footer__column p {
-    font: 18px 'muller_regularregular';
-    color: #bdbdbd;
-    line-height: 26px;
+  .dream-house__item-two__conteiner__content span {
+    margin: 20px 0;
+    display: block;
   }
-  .footer__column p a,
-  .footer__column p a:hover {
-    color: #bdbdbd;
-    text-decoration: none;
+  .dream-house__item-two__conteiner__content a,
+  .dream-house__item-two__conteiner__content a:hover {
+    display: block;
+    width: 290px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
   }
-  .footer__column p a:hover,
-  .footer__column p a:hover:hover {
-    color: #bdbdbd;
-    text-decoration: underline;
+  .dream-house__item-two__conteiner__content a:hover,
+  .dream-house__item-two__conteiner__content a:hover:hover {
+    background: #000;
+    color: #fff;
   }
 }
 @media only screen and (min-width: 1100px) {
@@ -246,6 +394,66 @@ ul {
   .header__phone-number {
     margin: 0 0 0 0;
     line-height: 130px;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  footer {
+    padding: 80px 0 80px 0;
+    background: #282828;
+    color: #fff;
+  }
+  .footer__column {
+    height: auto;
+  }
+  .footer__column h4 {
+    margin-bottom: 30px;
+    font: 24px 'muller_regularregular';
+    color: #ececec;
+  }
+  .footer__column p {
+    font: 18px 'muller_regularregular';
+    color: #bdbdbd;
+    line-height: 26px;
+  }
+  .footer__column p a,
+  .footer__column p a:hover {
+    color: #bdbdbd;
+    text-decoration: none;
+  }
+  .footer__column p a:hover,
+  .footer__column p a:hover:hover {
+    color: #bdbdbd;
+    text-decoration: underline;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 1100px) {
+  footer {
+    padding: 80px 0 80px 0;
+    background: #282828;
+    color: #fff;
+  }
+  .footer__column {
+    height: auto;
+  }
+  .footer__column h4 {
+    margin-bottom: 30px;
+    font: 24px 'muller_regularregular';
+    color: #ececec;
+  }
+  .footer__column p {
+    font: 18px 'muller_regularregular';
+    color: #bdbdbd;
+    line-height: 26px;
+  }
+  .footer__column p a,
+  .footer__column p a:hover {
+    color: #bdbdbd;
+    text-decoration: none;
+  }
+  .footer__column p a:hover,
+  .footer__column p a:hover:hover {
+    color: #bdbdbd;
+    text-decoration: underline;
   }
 }
 @media only screen and (min-width: 1100px) {
@@ -432,7 +640,6 @@ ul {
   .partners {
     padding: 36px 0 80px 0;
     height: auto;
-    background: #fff;
   }
   .partners img {
     display: block;
@@ -452,6 +659,12 @@ ul {
     width: 94px;
     height: 6px;
     background: #80a535;
+  }
+  .title-block p {
+    margin-top: 16px;
+    font: 21px 'muller_regularregular';
+    text-align: center;
+    color: #282828;
   }
 }
 @media only screen and (min-width: 1100px) {
@@ -477,6 +690,12 @@ ul {
     width: 94px;
     height: 6px;
     background: #80a535;
+  }
+  .title-block p {
+    margin-top: 16px;
+    font: 21px 'muller_regularregular';
+    text-align: center;
+    color: #282828;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 1100px) {
