@@ -123,3 +123,27 @@ $('.mobile-icon-menu').click(function(e){
   e.preventDefault();
   $('.mobile-menu-content').toggle();
 })
+
+$('.home-device__house__point-one').click(function(){
+  $('.home-device-show-1').toggle();
+})
+
+$('.home-device__house__point-two').click(function(){
+  $('.home-device-show-2').toggle();
+})
+
+$('.home-device__house__point-three').click(function(){
+  $('.home-device-show-3').toggle();
+})
+
+$('.home-device__house__point-four').click(function(){
+  $('.home-device-show-4').toggle();
+})
+
+$('.home-device__house__point-five').click(function(){
+  $('.home-device-show-5').toggle();
+})
+
+$('.home-device__house__point-six').click(function(){
+  $('.home-device-show-6').toggle();
+})
