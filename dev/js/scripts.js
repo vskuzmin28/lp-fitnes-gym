@@ -100,7 +100,7 @@ $('.actions-block').responsiveSlides({
 
 // reviews
 
-$('.reviews-block').responsiveSlides({
+$('.projects-block').responsiveSlides({
   auto: false,
   pager: false,
   nav: true,
