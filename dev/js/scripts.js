@@ -1,34 +1,8 @@
-// youtube player
-
-$('.main-screen__fake-preview').click(function(e){
-  e.preventDefault();
-  $("#startVideo")[0].src += "&autoplay=1";
-  $('.main-screen__fake-preview').hide();
-})
-
 // call popup
 
 $('.link-call-expert').click(function(e){
   e.preventDefault();
   $('.call-expert').bPopup({
-    closeClass:'popup__icon-close',
-      amsl: 0,
-      positionStyle: 'fixed',
-    })
-})
-
-$('.link-manager-consultation').click(function(e){
-  e.preventDefault();
-  $('.manager-consultation').bPopup({
-    closeClass:'popup__icon-close',
-      amsl: 0,
-      positionStyle: 'fixed',
-    })
-})
-
-$('.link-make-an-order').click(function(e){
-  e.preventDefault();
-  $('.make-an-order').bPopup({
     closeClass:'popup__icon-close',
       amsl: 0,
       positionStyle: 'fixed',
@@ -69,29 +43,7 @@ new WOW().init()
 
 $('.portfolio-block').responsiveSlides({
   auto: false,
-  pager: false,
-  nav: true,
-  speed: 500,
-  maxwidth: 1040,
-  //namespace: "centered-controls"
-})
-
-// works
-
-$('.works-block').responsiveSlides({
-  auto: false,
   pager: true,
-  nav: true,
-  speed: 500,
-  maxwidth: 514,
-  namespace: "works-controls"
-})
-
-// actions
-
-$('.actions-block').responsiveSlides({
-  auto: false,
-  pager: false,
   nav: true,
   speed: 500,
   maxwidth: 1040,
@@ -124,6 +76,8 @@ $('.mobile-icon-menu').click(function(e){
   $('.mobile-menu-content').toggle();
 })
 
+// device points logic
+
 $('.home-device__house__point-one').click(function(){
   $('.home-device-show-1').toggle();
 })
@@ -146,4 +100,20 @@ $('.home-device__house__point-five').click(function(){
 
 $('.home-device__house__point-six').click(function(){
   $('.home-device-show-6').toggle();
+})
+
+// tabs
+
+$('.portfolio__item__tabs__tab-content-two').hide();
+
+$('.portfolio__item__tabs__tab-one').click(function(e){
+  e.preventDefault();
+  $('.portfolio__item__tabs__tab-content-one').show();
+  $('.portfolio__item__tabs__tab-content-two').hide();
+})
+
+$('.portfolio__item__tabs__tab-two').click(function(e){
+  e.preventDefault();
+  $('.portfolio__item__tabs__tab-content-one').hide();
+  $('.portfolio__item__tabs__tab-content-two').show();
 })

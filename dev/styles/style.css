@@ -233,271 +233,271 @@ ul {
   }
 }
 @media only screen and (min-width: 1100px) {
-  .dream-house {
-    height: auto;
-    background: #f9f9f9;
-    padding: 90px 0;
-  }
-  .dream-house__item-one {
-    margin-bottom: 112px;
-    float: left;
-    width: 1253px;
-    height: 367px;
-    background: url('../img/dream-house-item-one.png') no-repeat;
-  }
-  .dream-house__item-one__conteiner {
-    height: auto;
-    overflow: hidden;
-  }
-  .dream-house__item-one__conteiner__preview {
-    margin: 0 0 0 116px;
-    float: left;
-    width: 448px;
-    height: 335px;
-  }
-  .dream-house__item-one__conteiner__content {
-    margin: 0 0 0 95px;
-    float: left;
-    width: 400px;
-  }
-  .dream-house__item-one__conteiner__content h5,
-  .dream-house__item-one__conteiner__content span {
-    font: 36px 'muller_regularregular';
-    color: #363636;
-  }
-  .dream-house__item-one__conteiner__content p {
-    margin: 50px 0 0 0;
-    font: 24px 'muller_regularregular';
-    color: #363636;
-  }
-  .dream-house__item-one__conteiner__content span {
-    margin: 20px 0;
-    display: block;
-  }
-  .dream-house__item-one__conteiner__content a,
-  .dream-house__item-one__conteiner__content a:hover {
-    display: block;
-    width: 290px;
-    height: 56px;
-    line-height: 56px;
-    text-align: center;
-  }
-  .dream-house__item-one__conteiner__content a:hover,
-  .dream-house__item-one__conteiner__content a:hover:hover {
-    background: #000;
+  footer {
+    padding: 80px 0 80px 0;
+    background: #282828;
     color: #fff;
   }
-  .dream-house__item-two {
-    float: right;
-    width: 1253px;
-    height: 367px;
-    background: url('../img/dream-house-item-two.png') no-repeat;
-  }
-  .dream-house__item-two__conteiner {
+  .footer__column {
     height: auto;
-    overflow: hidden;
   }
-  .dream-house__item-two__conteiner__preview {
-    margin: 0 116px 0 0;
-    float: right;
-    width: 448px;
-    height: 335px;
-  }
-  .dream-house__item-two__conteiner__content {
-    margin: 0 95px 0 0;
-    float: right;
-    width: 400px;
-  }
-  .dream-house__item-two__conteiner__content h5,
-  .dream-house__item-two__conteiner__content span {
-    font: 36px 'muller_regularregular';
-    color: #363636;
-  }
-  .dream-house__item-two__conteiner__content p {
-    margin: 50px 0 0 0;
+  .footer__column h4 {
+    margin-bottom: 30px;
     font: 24px 'muller_regularregular';
-    color: #363636;
+    color: #ececec;
   }
-  .dream-house__item-two__conteiner__content span {
-    margin: 20px 0;
-    display: block;
+  .footer__column p {
+    font: 18px 'muller_regularregular';
+    color: #bdbdbd;
+    line-height: 26px;
   }
-  .dream-house__item-two__conteiner__content a,
-  .dream-house__item-two__conteiner__content a:hover {
-    display: block;
-    width: 290px;
-    height: 56px;
-    line-height: 56px;
-    text-align: center;
+  .footer__column p a,
+  .footer__column p a:hover {
+    color: #bdbdbd;
+    text-decoration: none;
   }
-  .dream-house__item-two__conteiner__content a:hover,
-  .dream-house__item-two__conteiner__content a:hover:hover {
-    background: #000;
-    color: #fff;
+  .footer__column p a:hover,
+  .footer__column p a:hover:hover {
+    color: #bdbdbd;
+    text-decoration: underline;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 1100px) {
-  .dream-house {
-    height: auto;
-    background: #f9f9f9;
-    padding: 90px 0;
-  }
-  .dream-house__item-one {
-    margin-bottom: 112px;
-    float: left;
-    width: 1253px;
-    height: 367px;
-    background: url('../img/dream-house-item-one.png') no-repeat;
-  }
-  .dream-house__item-one__conteiner {
-    height: auto;
-    overflow: hidden;
-  }
-  .dream-house__item-one__conteiner__preview {
-    margin: 0 0 0 116px;
-    float: left;
-    width: 448px;
-    height: 335px;
-  }
-  .dream-house__item-one__conteiner__content {
-    margin: 0 0 0 95px;
-    float: left;
-    width: 400px;
-  }
-  .dream-house__item-one__conteiner__content h5,
-  .dream-house__item-one__conteiner__content span {
-    font: 36px 'muller_regularregular';
-    color: #363636;
-  }
-  .dream-house__item-one__conteiner__content p {
-    margin: 50px 0 0 0;
-    font: 24px 'muller_regularregular';
-    color: #363636;
-  }
-  .dream-house__item-one__conteiner__content span {
-    margin: 20px 0;
-    display: block;
-  }
-  .dream-house__item-one__conteiner__content a,
-  .dream-house__item-one__conteiner__content a:hover {
-    display: block;
-    width: 290px;
-    height: 56px;
-    line-height: 56px;
-    text-align: center;
-  }
-  .dream-house__item-one__conteiner__content a:hover,
-  .dream-house__item-one__conteiner__content a:hover:hover {
-    background: #000;
+  footer {
+    padding: 80px 0 80px 0;
+    background: #282828;
     color: #fff;
   }
-  .dream-house__item-two {
-    float: right;
-    width: 1253px;
-    height: 367px;
-    background: url('../img/dream-house-item-two.png') no-repeat;
-  }
-  .dream-house__item-two__conteiner {
+  .footer__column {
     height: auto;
-    overflow: hidden;
   }
-  .dream-house__item-two__conteiner__preview {
-    margin: 0 116px 0 0;
-    float: right;
-    width: 448px;
-    height: 335px;
-  }
-  .dream-house__item-two__conteiner__content {
-    margin: 0 95px 0 0;
-    float: right;
-    width: 400px;
-  }
-  .dream-house__item-two__conteiner__content h5,
-  .dream-house__item-two__conteiner__content span {
-    font: 36px 'muller_regularregular';
-    color: #363636;
-  }
-  .dream-house__item-two__conteiner__content p {
-    margin: 50px 0 0 0;
+  .footer__column h4 {
+    margin-bottom: 30px;
     font: 24px 'muller_regularregular';
-    color: #363636;
+    color: #ececec;
   }
-  .dream-house__item-two__conteiner__content span {
-    margin: 20px 0;
-    display: block;
+  .footer__column p {
+    font: 18px 'muller_regularregular';
+    color: #bdbdbd;
+    line-height: 26px;
   }
-  .dream-house__item-two__conteiner__content a,
-  .dream-house__item-two__conteiner__content a:hover {
-    display: block;
-    width: 290px;
-    height: 56px;
-    line-height: 56px;
-    text-align: center;
+  .footer__column p a,
+  .footer__column p a:hover {
+    color: #bdbdbd;
+    text-decoration: none;
   }
-  .dream-house__item-two__conteiner__content a:hover,
-  .dream-house__item-two__conteiner__content a:hover:hover {
-    background: #000;
-    color: #fff;
+  .footer__column p a:hover,
+  .footer__column p a:hover:hover {
+    color: #bdbdbd;
+    text-decoration: underline;
   }
 }
 @media only screen and (min-width: 1100px) {
-  footer {
-    padding: 80px 0 80px 0;
-    background: #282828;
+  .dream-house {
+    height: auto;
+    background: #f9f9f9;
+    padding: 90px 0;
+  }
+  .dream-house__item-one {
+    margin-bottom: 112px;
+    float: left;
+    width: 1253px;
+    height: 367px;
+    background: url('../img/dream-house-item-one.png') no-repeat;
+  }
+  .dream-house__item-one__conteiner {
+    height: auto;
+    overflow: hidden;
+  }
+  .dream-house__item-one__conteiner__preview {
+    margin: 0 0 0 116px;
+    float: left;
+    width: 448px;
+    height: 335px;
+  }
+  .dream-house__item-one__conteiner__content {
+    margin: 0 0 0 95px;
+    float: left;
+    width: 400px;
+  }
+  .dream-house__item-one__conteiner__content h5,
+  .dream-house__item-one__conteiner__content span {
+    font: 36px 'muller_regularregular';
+    color: #363636;
+  }
+  .dream-house__item-one__conteiner__content p {
+    margin: 50px 0 0 0;
+    font: 24px 'muller_regularregular';
+    color: #363636;
+  }
+  .dream-house__item-one__conteiner__content span {
+    margin: 20px 0;
+    display: block;
+  }
+  .dream-house__item-one__conteiner__content a,
+  .dream-house__item-one__conteiner__content a:hover {
+    display: block;
+    width: 290px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+  }
+  .dream-house__item-one__conteiner__content a:hover,
+  .dream-house__item-one__conteiner__content a:hover:hover {
+    background: #000;
     color: #fff;
   }
-  .footer__column {
+  .dream-house__item-two {
+    float: right;
+    width: 1253px;
+    height: 367px;
+    background: url('../img/dream-house-item-two.png') no-repeat;
+  }
+  .dream-house__item-two__conteiner {
     height: auto;
+    overflow: hidden;
   }
-  .footer__column h4 {
-    margin-bottom: 30px;
+  .dream-house__item-two__conteiner__preview {
+    margin: 0 116px 0 0;
+    float: right;
+    width: 448px;
+    height: 335px;
+  }
+  .dream-house__item-two__conteiner__content {
+    margin: 0 95px 0 0;
+    float: right;
+    width: 400px;
+  }
+  .dream-house__item-two__conteiner__content h5,
+  .dream-house__item-two__conteiner__content span {
+    font: 36px 'muller_regularregular';
+    color: #363636;
+  }
+  .dream-house__item-two__conteiner__content p {
+    margin: 50px 0 0 0;
     font: 24px 'muller_regularregular';
-    color: #ececec;
+    color: #363636;
   }
-  .footer__column p {
-    font: 18px 'muller_regularregular';
-    color: #bdbdbd;
-    line-height: 26px;
+  .dream-house__item-two__conteiner__content span {
+    margin: 20px 0;
+    display: block;
   }
-  .footer__column p a,
-  .footer__column p a:hover {
-    color: #bdbdbd;
-    text-decoration: none;
+  .dream-house__item-two__conteiner__content a,
+  .dream-house__item-two__conteiner__content a:hover {
+    display: block;
+    width: 290px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
   }
-  .footer__column p a:hover,
-  .footer__column p a:hover:hover {
-    color: #bdbdbd;
-    text-decoration: underline;
+  .dream-house__item-two__conteiner__content a:hover,
+  .dream-house__item-two__conteiner__content a:hover:hover {
+    background: #000;
+    color: #fff;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 1100px) {
-  footer {
-    padding: 80px 0 80px 0;
-    background: #282828;
+  .dream-house {
+    height: auto;
+    background: #f9f9f9;
+    padding: 90px 0;
+  }
+  .dream-house__item-one {
+    margin-bottom: 112px;
+    float: left;
+    width: 1253px;
+    height: 367px;
+    background: url('../img/dream-house-item-one.png') no-repeat;
+  }
+  .dream-house__item-one__conteiner {
+    height: auto;
+    overflow: hidden;
+  }
+  .dream-house__item-one__conteiner__preview {
+    margin: 0 0 0 116px;
+    float: left;
+    width: 448px;
+    height: 335px;
+  }
+  .dream-house__item-one__conteiner__content {
+    margin: 0 0 0 95px;
+    float: left;
+    width: 400px;
+  }
+  .dream-house__item-one__conteiner__content h5,
+  .dream-house__item-one__conteiner__content span {
+    font: 36px 'muller_regularregular';
+    color: #363636;
+  }
+  .dream-house__item-one__conteiner__content p {
+    margin: 50px 0 0 0;
+    font: 24px 'muller_regularregular';
+    color: #363636;
+  }
+  .dream-house__item-one__conteiner__content span {
+    margin: 20px 0;
+    display: block;
+  }
+  .dream-house__item-one__conteiner__content a,
+  .dream-house__item-one__conteiner__content a:hover {
+    display: block;
+    width: 290px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+  }
+  .dream-house__item-one__conteiner__content a:hover,
+  .dream-house__item-one__conteiner__content a:hover:hover {
+    background: #000;
     color: #fff;
   }
-  .footer__column {
+  .dream-house__item-two {
+    float: right;
+    width: 1253px;
+    height: 367px;
+    background: url('../img/dream-house-item-two.png') no-repeat;
+  }
+  .dream-house__item-two__conteiner {
     height: auto;
+    overflow: hidden;
   }
-  .footer__column h4 {
-    margin-bottom: 30px;
+  .dream-house__item-two__conteiner__preview {
+    margin: 0 116px 0 0;
+    float: right;
+    width: 448px;
+    height: 335px;
+  }
+  .dream-house__item-two__conteiner__content {
+    margin: 0 95px 0 0;
+    float: right;
+    width: 400px;
+  }
+  .dream-house__item-two__conteiner__content h5,
+  .dream-house__item-two__conteiner__content span {
+    font: 36px 'muller_regularregular';
+    color: #363636;
+  }
+  .dream-house__item-two__conteiner__content p {
+    margin: 50px 0 0 0;
     font: 24px 'muller_regularregular';
-    color: #ececec;
+    color: #363636;
   }
-  .footer__column p {
-    font: 18px 'muller_regularregular';
-    color: #bdbdbd;
-    line-height: 26px;
+  .dream-house__item-two__conteiner__content span {
+    margin: 20px 0;
+    display: block;
   }
-  .footer__column p a,
-  .footer__column p a:hover {
-    color: #bdbdbd;
-    text-decoration: none;
+  .dream-house__item-two__conteiner__content a,
+  .dream-house__item-two__conteiner__content a:hover {
+    display: block;
+    width: 290px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
   }
-  .footer__column p a:hover,
-  .footer__column p a:hover:hover {
-    color: #bdbdbd;
-    text-decoration: underline;
+  .dream-house__item-two__conteiner__content a:hover,
+  .dream-house__item-two__conteiner__content a:hover:hover {
+    background: #000;
+    color: #fff;
   }
 }
 @media only screen and (min-width: 1100px) {
@@ -1257,6 +1257,233 @@ ul {
   }
   .popup__icon-close img:hover {
     transform: rotate(180deg);
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .portfolio {
+    height: 1482px;
+    background: url('../img/portfolio-bg.jpg') no-repeat center;
+    background-size: cover;
+  }
+  .portfolio__title {
+    height: auto;
+  }
+  .portfolio__title h3 {
+    margin-top: 60px;
+    font: 48px 'muller_regularregular';
+    color: #fff;
+    text-align: center;
+  }
+  .portfolio__line {
+    width: 95px;
+    height: 6px;
+    background: #80a535;
+    margin: 0 auto;
+  }
+  .portfolio-slider {
+    margin: 0 auto;
+    width: 1400px;
+    height: auto;
+  }
+  ul.rslides1_tabs {
+    margin: 40px auto;
+    width: 170px;
+    height: 50px;
+  }
+  ul.rslides1_tabs li {
+    margin-right: 10px;
+    float: left;
+    width: 32px;
+    height: 32px;
+    border: 4px solid #80a535;
+    border-radius: 10px;
+  }
+  ul.rslides1_tabs li a,
+  ul.rslides1_tabs li a:hover {
+    margin: 3px 3px;
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: 0;
+    border-radius: 5px;
+    text-indent: -999999px;
+    overflow: hidden;
+  }
+  ul.rslides1_tabs .rslides_here {
+    float: left;
+    width: 32px;
+    height: 32px;
+    border: 4px solid #80a535;
+    border-radius: 10px;
+  }
+  ul.rslides1_tabs .rslides_here a,
+  ul.rslides1_tabs .rslides_here a:hover {
+    margin: 3px 3px;
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    border-radius: 5px;
+    text-indent: -999999px;
+    overflow: hidden;
+  }
+  .portfolio-slider {
+    margin-top: 60px;
+    position: relative;
+    z-index: 888;
+  }
+  .portfolio-slider li {
+    list-style: none;
+    width: 1400px;
+  }
+  .portfolio-slider .prev {
+    top: 422px;
+    left: -8%;
+    margin-left: 0;
+    position: absolute;
+    display: block;
+    width: 56px;
+    height: 56px;
+    border: 6px solid #80a535;
+    border-radius: 15px;
+    overflow: hidden;
+    text-indent: -9999px;
+    background: url('../img/icons/icon-4.png') no-repeat 10px 6px;
+    z-index: 888;
+  }
+  .portfolio-slider .prev:hover {
+    background: url('../img/icons/icon-4.png') no-repeat 10px 6px;
+    border-color: #fff;
+  }
+  .portfolio-slider .next {
+    top: 422px;
+    right: -8%;
+    margin-left: -2%;
+    position: absolute;
+    display: block;
+    width: 56px;
+    height: 56px;
+    border: 6px solid #80a535;
+    border-radius: 15px;
+    overflow: hidden;
+    background: url('../img/icons/icon-4.png') no-repeat 10px 6px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    text-indent: -9999px;
+    z-index: 99999;
+  }
+  .portfolio-slider .next:hover {
+    background: url('../img/icons/icon-4.png') no-repeat 10px 6px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    border-color: #fff;
+  }
+  .portfolio__item {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 36px;
+    width: 1360px;
+    height: 1180px;
+    overflow: hidden;
+    background: #fff;
+  }
+  .portfolio__item__preview {
+    margin: 40px auto;
+    width: 1295px;
+    height: 692px;
+    background: #f00;
+  }
+  .portfolio__item__terms {
+    padding-left: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 248px;
+    height: 200px;
+    background: #fff;
+    overflow: hidden;
+  }
+  .portfolio__item__terms h6 {
+    margin-top: 60px;
+    font: 26px 'mullermedium';
+    color: #80a535;
+  }
+  .portfolio__item__terms p {
+    font: 22px 'muller_regularregular';
+    color: #212121;
+  }
+  .portfolio__item__tabs {
+    height: 110px;
+    position: relative;
+  }
+  .portfolio__item__tabs__controls {
+    margin-top: -68px;
+    position: absolute;
+    height: 55px;
+    width: 100%;
+  }
+  .portfolio__item__tabs__tab {
+    display: block;
+    width: 359px;
+    height: 55px;
+    background: url('../img/tab.png') no-repeat;
+    font: 18px 'muller_regularregular';
+    color: #262626;
+    text-align: center;
+    line-height: 55px;
+    text-decoration: none;
+  }
+  .portfolio__item__tabs__tab:hover,
+  .portfolio__item__tabs__tab:focus {
+    background: url('../img/tab-a.png') no-repeat;
+    color: #fff;
+    text-decoration: none;
+  }
+  .portfolio__item__tabs__tab-active {
+    background: url('../img/tab-a.png') no-repeat;
+    color: #fff;
+    text-decoration: none;
+  }
+  .portfolio__item__tabs__tab-one {
+    float: right;
+  }
+  .portfolio__item__tabs__tab-two {
+    float: left;
+  }
+  .portfolio__item__tabs__tab-content-one table,
+  .portfolio__item__tabs__tab-content-two table {
+    width: 100%;
+  }
+  .portfolio__item__tabs__tab-content-one table td,
+  .portfolio__item__tabs__tab-content-two table td {
+    border-bottom: 1px solid #b7b7b7;
+    border-right: 1px solid #b7b7b7;
+    margin-right: 0px;
+    padding-left: 10%;
+    width: 33.1%;
+    height: 50px;
+    margin-bottom: 1px;
+    display: inline-block;
+    font: 14px 'muller_regularregular';
+    line-height: 50px;
+    color: #000;
+  }
+  .portfolio__item__mini-previews {
+    height: 264px;
+  }
+  .portfolio__item__mini-previews li {
+    margin: 14px;
+    float: left;
+    width: 312px;
+  }
+  .portfolio__item__mini-previews img {
+    width: 312px;
+    height: 264px;
+    display: block;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 1100px) {
