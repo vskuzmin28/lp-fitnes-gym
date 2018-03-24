@@ -1,56 +1,58 @@
-// call form
-
-.call-form
+.main-screen
 
 	// container
 
 	.container
 
-		// row
-
 		.row
-
-			// column
 
 			.col-md-12
 
-				// call form container
+				h2
+					| ЕДИНСТВЕННЫЙ ФИТНЕС <br/> ЦЕНТР ПРЕМИУМ КЛАССА В ОМСКЕ РАЗДАЕТ
+					span
+						| 1 500 000 руб.
 
-				.call-form__container
+				p
+					| 200 человек купившие годовые абонементы <br/> получают пакет преимуществ до 7500* руб. и скидку на абонемент –20%
 
-					// content
-					.call-form__content
+		.row.main-screen__block-info 
 
-						// description
-						.call-form__content__description
+			.col-sm-12.col-md-1
 
-							h3
-								| Архитектурный проект в подарок
+			.col-sm-12.col-md-5
 
-							.call-form__content__description__line
+				ul
+					li
+						img(src="../img/icon-1.png" alt="")
+						p
+							| Светлый зал с профессиональной вентиляцией
+					li
+						img(src="../img/icon-2.png" alt="")
+						p
+							| Профессиональные тренеры
+					li
+						img(src="../img/icon-3.png" alt="")
+						p
+							| Нет очередей к тренажерам
+					li
+						img(src="../img/icon-4.png" alt="")
+						p
+							| Идеальная SPA-зона 
 
-							p
-								| Заполните форму заявки, чтобы получить индивидуальный архитектурный проект каркасного дома в подарок
+			.col-sm-12.col-md-1
 
-						//  form
+			.col-sm-12.col-md-5
 
-						form.call-form__content__form(action="/" method="post")
+				form(action="/" method="post")
+					p
+						| Успейте забронировать абонементы с преимуществами
+					
+					.field-input
+						input(type="text" name="name" placeholder="Ваше имя")
 
-							h6
-								| ЗАКАЖИТЕ КОНСУЛЬТАЦИЮ
+					.field-input
+						input(type="text" name="name" placeholder="Ваш номер телефона")
 
-							.call-form__content__form__line
-
-							.call-form__content__form__input
-								input.call-form__content__form__input__name(type="text" name="" placeholder="Имя" required)
-
-							.call-form__content__form__input
-								input.call-form__content__form__input__phone(type="text" name="" placeholder="Телефон" required)
-
-							.call-form__content__form__input
-								input.call-form__content__form__input__email(type="text" name="" placeholder="E-mail" required)
-
-							p
-								| Ответ в течение 15 минут
-
-							input.btn-green(type="submit" value="Подробнее")
+					.field-button
+						input.btn-red(type="submit" action="Забронировать абонемент")
