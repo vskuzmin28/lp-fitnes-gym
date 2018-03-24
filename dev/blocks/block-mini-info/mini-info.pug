@@ -1,56 +1,41 @@
-// call form
-
-.call-form
+.mini-info
 
 	// container
 
 	.container
 
-		// row
-
 		.row
 
-			// column
+			.col-sm-12.col-md-4
 
-			.col-md-12
+				// logo
 
-				// call form container
+				img.logo.header__logo(src="../img/logo.png" alt="")
 
-				.call-form__container
+			.col-sm-12.col-md-6
 
-					// content
-					.call-form__content
+				// navigation
 
-						// description
-						.call-form__content__description
+				nav.navigation.header__navigation
+					ul
+						li: a(data-easing="easeInQuad" href="#blockContacts" title="")
+							| О клубе
+						li: a(data-easing="easeInQuad" href="#blockChoiceSub" title="")
+							| Абонементы
+						li: a(data-easing="easeInQuad" href="#blockContacts" title="")
+							| Контакты
 
-							h3
-								| Архитектурный проект в подарок
+			.col-sm-12.col-md-2
 
-							.call-form__content__description__line
+				// contacts information
 
-							p
-								| Заполните форму заявки, чтобы получить индивидуальный архитектурный проект каркасного дома в подарок
+				.socials
 
-						//  form
+					// phone number
 
-						form.call-form__content__form(action="/" method="post")
-
-							h6
-								| ЗАКАЖИТЕ КОНСУЛЬТАЦИЮ
-
-							.call-form__content__form__line
-
-							.call-form__content__form__input
-								input.call-form__content__form__input__name(type="text" name="" placeholder="Имя" required)
-
-							.call-form__content__form__input
-								input.call-form__content__form__input__phone(type="text" name="" placeholder="Телефон" required)
-
-							.call-form__content__form__input
-								input.call-form__content__form__input__email(type="text" name="" placeholder="E-mail" required)
-
-							p
-								| Ответ в течение 15 минут
-
-							input.btn-green(type="submit" value="Подробнее")
+					a(href="#" title="")
+						img(src="../img/icon-5.png" alt="")
+					a(href="#" title="")
+						img(src="../img/icon-6.png" alt="")
+					a(href="#" title="")
+						img(src="../img/icon-7.png" alt="")
