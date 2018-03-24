@@ -1,56 +1,29 @@
-// call form
-
-.call-form
+.questions
 
 	// container
 
 	.container
 
-		// row
-
 		.row
 
-			// column
+			.col-md-3
 
-			.col-md-12
+				// form
 
-				// call form container
+				form.send-form(action="/" method="post")
+					h4
+						| Остались вопросы? <br/> Давайте мы вам перезвоним!
 
-				.call-form__container
+					.field-input
+						input(type="text" name="" placeholder="Имя" required)
 
-					// content
-					.call-form__content
+					.field-input
+						input(type="text" name="" placeholder="Номер телефона" required)
 
-						// description
-						.call-form__content__description
+					.field-input
+						input(type="text" name="" placeholder="Ваш вопрос" required)
 
-							h3
-								| Архитектурный проект в подарок
+					.field-button
+						input.btn-red(type="submit" value="Заказать обратный звонок")
 
-							.call-form__content__description__line
-
-							p
-								| Заполните форму заявки, чтобы получить индивидуальный архитектурный проект каркасного дома в подарок
-
-						//  form
-
-						form.call-form__content__form(action="/" method="post")
-
-							h6
-								| ЗАКАЖИТЕ КОНСУЛЬТАЦИЮ
-
-							.call-form__content__form__line
-
-							.call-form__content__form__input
-								input.call-form__content__form__input__name(type="text" name="" placeholder="Имя" required)
-
-							.call-form__content__form__input
-								input.call-form__content__form__input__phone(type="text" name="" placeholder="Телефон" required)
-
-							.call-form__content__form__input
-								input.call-form__content__form__input__email(type="text" name="" placeholder="E-mail" required)
-
-							p
-								| Ответ в течение 15 минут
-
-							input.btn-green(type="submit" value="Подробнее")
+			.col-md-9
