@@ -8,6 +8,7 @@ var gulp 			= require('gulp'),
 	less 			= require('gulp-less'),
 	pug 			= require('gulp-pug'),
 	notify 			= require("gulp-notify"), 			// Уведомления об ошибках
+	lessImport 		= require('gulp-less-import'), 		// Ебаный импорт
 	browserSync 	= require('browser-sync'),
 	imagemin 		= require('gulp-imagemin'), 		// Подключаем библиотеку для работы с изображениями
 	pngquant 		= require('imagemin-pngquant'), 	// Подключаем библиотеку для работы с png
@@ -60,7 +61,7 @@ gulp.task('browser-sync', function() {
 		server: true,
 		server: { 
 			baseDir: 'dev/', 	// Директория  в которой лежат доступные страницы
-			index: "pages/index.html" 	// Начальная странице при обращении к localhost
+			index: "index.html" 	// Начальная странице при обращении к localhost
 		},
 		notify: false,
 		open: false
@@ -74,7 +75,7 @@ gulp.task('watch', ['browser-sync'], function() {
 	gulp.watch('dev/**/*.less', ['less']);
 	//gulp.watch('dev/img/**/*.*', ['png']);
 	gulp.watch('dev/**/*.css', browserSync.reload);
-	gulp.watch('dev/pages/*.html', browserSync.reload);
+	gulp.watch('dev/*.html', browserSync.reload);
 })
 
 // Удаление старых файлов

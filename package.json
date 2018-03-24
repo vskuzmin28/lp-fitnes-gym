@@ -1,7 +1,7 @@
 {
-  "name": "fitnes #1",
+  "name": "byggahusen",
   "version": "1.0",
-  "description": "landing page fitnes #1",
+  "description": "landing page byggahusen",
   "main": "a",
   "dependencies": {
     "browser-sync": "^2.18.12",
