@@ -41,11 +41,11 @@ new WOW().init()
 
 // portfolio
 
-$('.portfolio-block').responsiveSlides({
+$('.club-photos').responsiveSlides({
   auto: false,
-  pager: true,
+  pager: false,
   nav: true,
-  speed: 500,
-  maxwidth: 1040,
+  speed: 0,
+  maxwidth: 1070,
   //namespace: "centered-controls"
 })

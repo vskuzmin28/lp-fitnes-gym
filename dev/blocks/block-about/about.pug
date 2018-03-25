@@ -1,56 +1,85 @@
-// call form
-
-.call-form
+.about
 
 	// container
 
 	.container
 
-		// row
-
 		.row
-
-			// column
 
 			.col-md-12
 
-				// call form container
+				h3
+					| Фитнесе № 1 – единственный в городе <br/> фитнес-центр премиум класса
+				
+				p
+					| Создан для самых требовательных и искушенных, для людей, ценящих особую атмосферу, комфорт и высочайшее качество сервиса. Оборудование премиум класса Paramount(США) и Technogym(Италия), опытные тренеры и одна из лучших SPA-зон в городе позволят вам получить максимальный эффект от тренировок и отдохнуть от городской суеты.
 
-				.call-form__container
+		.row
 
-					// content
-					.call-form__content
+			.col-md-12
 
-						// description
-						.call-form__content__description
+				// reviews slider
 
-							h3
-								| Архитектурный проект в подарок
+				.club-photos-body
 
-							.call-form__content__description__line
+					ul.club-photos.container
 
-							p
-								| Заполните форму заявки, чтобы получить индивидуальный архитектурный проект каркасного дома в подарок
+						// item
 
-						//  form
+						li.row
+						
+							.col-md-4
 
-						form.call-form__content__form(action="/" method="post")
+								// item
 
-							h6
-								| ЗАКАЖИТЕ КОНСУЛЬТАЦИЮ
+								.club-photos__item.wow.fadeInDowm
+									a(data-fancybox="club" href="../img/club/photo-1.jpg" title="")
+										img(src="../img/club/photo-1.jpg" alt="")
 
-							.call-form__content__form__line
+							.col-md-4.wow
 
-							.call-form__content__form__input
-								input.call-form__content__form__input__name(type="text" name="" placeholder="Имя" required)
+								// item
 
-							.call-form__content__form__input
-								input.call-form__content__form__input__phone(type="text" name="" placeholder="Телефон" required)
+								.club-photos__item.fadeInDowm
+									a(data-fancybox="club" href="../img/club/photo-2.jpg" title="")
+										img(src="../img/club/photo-2.jpg" alt="")
 
-							.call-form__content__form__input
-								input.call-form__content__form__input__email(type="text" name="" placeholder="E-mail" required)
+							.col-md-4
 
-							p
-								| Ответ в течение 15 минут
+								// item
 
-							input.btn-green(type="submit" value="Подробнее")
+								.club-photos__item.wow.fadeInDowm
+									a(data-fancybox="club" href="../img/club/photo-3.jpg" title="")
+										img(src="../img/club/photo-3.jpg" alt="")
+
+						// / item
+
+						// item
+
+						li.row
+						
+							.col-md-4
+
+								// item
+
+								.club-photos__item
+									a(data-fancybox="club" href="../img/club/photo-4.jpg" title="")
+										img(src="../img/club/photo-4.jpg" alt="")
+
+							.col-md-4
+
+								// item
+
+								.club-photos__item
+									a(data-fancybox="club" href="../img/club/photo-5.jpg" title="")
+										img(src="../img/club/photo-5.jpg" alt="")
+
+							.col-md-4
+
+								// item
+
+								.club-photos__item
+									a(data-fancybox="club" href="../img/club/photo-6.jpg" title="")
+										img(src="../img/club/photo-6.jpg" alt="")
+
+						// / item
