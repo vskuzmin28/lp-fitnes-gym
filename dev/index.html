@@ -49,7 +49,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h2>ЕДИНСТВЕННЫЙ ФИТНЕС <br/> ЦЕНТР ПРЕМИУМ КЛАССА В ОМСКЕ РАЗДАЕТ<span>1 500 000 руб.</span></h2>
+            <h2>РАЗДАЕМ 1 500 000 руб.</h2>
             <p>200 человек купившие годовые абонементы <br/> получают пакет преимуществ до 7500* руб. и скидку на абонемент –20%</p>
           </div>
         </div>
@@ -57,23 +57,27 @@
           <div class="col-sm-12 col-md-1"></div>
           <div class="col-sm-12 col-md-5">
             <ul>
-              <li><img src="../img/icon-1.png" alt="">
+              <li>
+                <!--img(src="../img/icon-1.png" alt="")-->
                 <p>Светлый зал с профессиональной вентиляцией</p>
               </li>
-              <li><img src="../img/icon-2.png" alt="">
+              <li>
+                <!--img(src="../img/icon-2.png" alt="")-->
                 <p>Профессиональные тренеры</p>
               </li>
-              <li><img src="../img/icon-3.png" alt="">
+              <li>
+                <!--img(src="../img/icon-3.png" alt="")-->
                 <p>Нет очередей к тренажерам</p>
               </li>
-              <li><img src="../img/icon-4.png" alt="">
+              <li>
+                <!--img(src="../img/icon-4.png" alt="")-->
                 <p>Идеальная SPA-зона </p>
               </li>
             </ul>
           </div>
           <div class="col-sm-12 col-md-1"></div>
           <div class="col-sm-12 col-md-5">
-            <form action="/" method="post">
+            <form action="mail.php" method="post">
               <p>Успейте забронировать абонементы с преимуществами</p>
               <div class="field-input">
                 <input type="text" name="name" placeholder="Ваше имя">
@@ -82,6 +86,7 @@
                 <input type="text" name="name" placeholder="Ваш номер телефона">
               </div>
               <div class="field-button">
+                <input type="hidden" id="action" name="action" value="submitform">
                 <input class="btn-red" type="submit" value="Забронировать абонемент">
               </div>
             </form>
@@ -94,8 +99,8 @@
       <div class="container">
         <div class="row">
           <div class="col-md-1"></div>
-          <div class="col-md-10">
-            <p>*Сумма преимуществ включает в себя: Cashback* на услуги клуба до 5000 руб., бесплатная персональная тренировка, 1 день сбалансированного питания от компании “Формула питания”, консультация специалиста по питанию <br/> *При покупке годового абонемента сумма Cashback зачисляется на карту клиента и может быть израсходована на любые услуги и товары в фитнес клубе “Фитнес №1” в том числе: услуги персонального тренера, солярий, ассортимента бара и прочее. Подробности узнавайте у администраторов.</p>
+          <div class="col-md-12">
+            <p class="about-fix-text">*Сумма преимуществ включает в себя: Cashback* на услуги клуба до 5000 руб., бесплатная персональная тренировка, 1 день сбалансированного питания от компании “Формула питания”, консультация специалиста по питанию <br/> *При покупке годового абонемента сумма Cashback зачисляется на карту клиента и может быть израсходована на любые услуги и товары в фитнес клубе “Фитнес №1” в том числе: услуги персонального тренера, солярий, ассортимента бара и прочее. Подробности узнавайте у администраторов.</p>
           </div>
           <div class="col-md-1"></div>
         </div>
@@ -107,13 +112,23 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h3>Фитнесе № 1 – единственный в городе <br/> фитнес-центр премиум класса</h3>
-            <p>Создан для самых требовательных и искушенных, для людей, ценящих особую атмосферу, комфорт и высочайшее качество сервиса. Оборудование премиум класса Paramount(США) и Technogym(Италия), опытные тренеры и одна из лучших SPA-зон в городе позволят вам получить максимальный эффект от тренировок и отдохнуть от городской суеты.</p>
+            <h3>Фитнесе № 1 – единственный в городе фитнес-центр премиум класса</h3>
           </div>
         </div>
+      </div>
+      <!-- container-->
+      <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <!-- reviews slider-->
+            <p class="about-fix-text">Создан для самых требовательных и искушенных, для людей, ценящих особую атмосферу, комфорт и высочайшее качество сервиса. Оборудование премиум класса Paramount(США) и Technogym(Италия), опытные тренеры и одна из лучших SPA-зон в городе позволят вам получить максимальный эффект от тренировок и отдохнуть от городской суеты.</p>
+          </div>
+        </div>
+      </div>
+      <!-- container-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <!-- slider-->
             <div class="club-photos-body">
               <ul class="club-photos container">
                 <!-- item-->
@@ -150,6 +165,71 @@
                 <!-- / item-->
               </ul>
             </div>
+            <!-- slider-->
+            <div class="club-photos-body-mobile">
+              <ul class="club-photos-mobile container">
+                <!-- item-->
+                <li class="row">
+                  <div class="col-xs-2 col-md-2"></div>
+                  <div class="col-xs-8 col-md-8">
+                    <!-- item-->
+                    <div class="club-photos__item-mobile wow fadeInDown"><a data-fancybox="club" href="../img/club/photo-1.jpg" title=""><img src="../img/club/photo-1.jpg" alt=""></a></div>
+                  </div>
+                  <div class="col-xs-2 col-md-2"></div>
+                </li>
+                <!-- / item-->
+                <!-- item-->
+                <li class="row">
+                  <div class="col-xs-2 col-md-2"></div>
+                  <div class="col-xs-8 col-md-8">
+                    <!-- item-->
+                    <div class="club-photos__item-mobile wow fadeInDown"><a data-fancybox="club" href="../img/club/photo-2.jpg" title=""><img src="../img/club/photo-2.jpg" alt=""></a></div>
+                  </div>
+                  <div class="col-xs-2 col-md-2"></div>
+                </li>
+                <!-- / item-->
+                <!-- item-->
+                <li class="row">
+                  <div class="col-xs-2 col-md-2"></div>
+                  <div class="col-xs-8 col-md-8">
+                    <!-- item-->
+                    <div class="club-photos__item-mobile wow fadeInDown"><a data-fancybox="club" href="../img/club/photo-3.jpg" title=""><img src="../img/club/photo-3.jpg" alt=""></a></div>
+                  </div>
+                  <div class="col-xs-2 col-md-2"></div>
+                </li>
+                <!-- / item-->
+                <!-- item-->
+                <li class="row">
+                  <div class="col-xs-2 col-md-2"></div>
+                  <div class="col-xs-8 col-md-8">
+                    <!-- item-->
+                    <div class="club-photos__item-mobile wow fadeInDown"><a data-fancybox="club" href="../img/club/photo-4.jpg" title=""><img src="../img/club/photo-4.jpg" alt=""></a></div>
+                  </div>
+                  <div class="col-xs-2 col-md-2"></div>
+                </li>
+                <!-- / item-->
+                <!-- item-->
+                <li class="row">
+                  <div class="col-xs-2 col-md-2"></div>
+                  <div class="col-xs-8 col-md-8">
+                    <!-- item-->
+                    <div class="club-photos__item-mobile wow fadeInDown"><a data-fancybox="club" href="../img/club/photo-5.jpg" title=""><img src="../img/club/photo-5.jpg" alt=""></a></div>
+                  </div>
+                  <div class="col-xs-2 col-md-2"></div>
+                </li>
+                <!-- / item-->
+                <!-- item-->
+                <li class="row">
+                  <div class="col-xs-2 col-md-2"></div>
+                  <div class="col-xs-8 col-md-8">
+                    <!-- item-->
+                    <div class="club-photos__item-mobile wow fadeInDown"><a data-fancybox="club" href="../img/club/photo-6.jpg" title=""><img src="../img/club/photo-6.jpg" alt=""></a></div>
+                  </div>
+                  <div class="col-xs-2 col-md-2"></div>
+                </li>
+                <!-- / item-->
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -162,10 +242,12 @@
           <div class="col-md-4"><img src="../img/company-1.jpg" alt=""><img src="../img/company-2.png" alt="">
             <p>Люксовые бренды тренажеров, признанные атлетами во всем мире</p>
           </div>
-          <div class="col-md-4"><img src="../img/trainers.png" alt="">
+          <div class="col-md-4">
+            <!--img(src="../img/trainers.png" alt="")-->
             <p>Лучший тренерский состав в городе</p>
           </div>
-          <div class="col-md-4"><img src="../img/spa.png" alt="">
+          <div class="col-md-4">
+            <!--img(src="../img/spa.png" alt="")-->
             <p>Уникальный SPA-зона включающая в себя:</p>
             <ul>
               <li>Хамам</li>
@@ -191,10 +273,11 @@
           <div class="col-md-4 choice-sub__column">
             <!-- item-->
             <div class="choice-sub__string">
-              <p class="p-bold align-center">Годовой абонемент Безлимитный</p>
+              <p class="p-bold align-center red">Годовой абонемент Безлимитный</p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string middle-sale"><img src="../img/icon-17.png" alt="">
+            <div class="choice-sub__string middle-sale">
+              <!--img(src="../img/icon-17.png" alt="")-->
               <p><span class="text-line">35000р</span> <br/> <span class="text-big">28000р</span></p>
             </div>
             <!-- item-->
@@ -202,31 +285,38 @@
               <p class="align-center">Безлимитное посещение клуба, посещение групповых программ, SPA зона </p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-10.png" alt="">
+            <div class="choice-sub__string">
+              <!--img(src="../img/icon-10.png" alt="")-->
               <p>Cashback <br/> 5000р </p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-11.png" alt="">
+            <div class="choice-sub__string">
+              <!--img(src="../img/icon-11.png" alt="")-->
               <p>Консультация специалиста <br/> по питанию</p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-12.png" alt="">
+            <div class="choice-sub__string">
+              <!--img(src="../img/icon-12.png" alt="")-->
               <p>Дневной рацион правильного <br/> питания от Формулы питания </p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-13.png" alt="">
+            <div class="choice-sub__string">
+              <!--img(src="../img/icon-13.png" alt="")-->
               <p>Солярия <br/> 30 мин.</p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-14.png" alt="">
+            <div class="choice-sub__string">
+              <!--img(src="../img/icon-14.png" alt="")-->
               <p>Индивидуальный шкафчик <br/> 1 мес.</p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-15.png" alt="">
+            <div class="choice-sub__string">
+              <!--img(src="../img/icon-15.png" alt="")-->
               <p>Настольный теннис <br/> 5 часов</p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-16.png" alt="">
+            <div class="choice-sub__string">
+              <!--img(src="../img/icon-16.png" alt="")-->
               <p>Заморозка карты <br/> 45 дней</p>
             </div>
             <!-- item-->
@@ -235,10 +325,11 @@
           <div class="col-md-4 choice-sub__column">
             <!-- item-->
             <div class="choice-sub__string">
-              <p class="p-bold align-center">Дневной абонемент</p>
+              <p class="p-bold align-center yellow">Дневной абонемент</p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string middle-sale"><img src="../img/icon-17.png" alt="">
+            <div class="choice-sub__string middle-sale">
+              <!--img(src="../img/icon-17.png" alt="")-->
               <p><span class="text-line">28000р</span> <br/> <span class="text-big">23000р</span></p>
             </div>
             <!-- item-->
@@ -246,27 +337,33 @@
               <p class="align-center">Посещение клуба с 7 до 17 00 в <br/> будни с 9 до 22 в вх. и в праздники</p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-10.png" alt="">
+            <div class="choice-sub__string">
+              <!--img(src="../img/icon-10.png" alt="")-->
               <p>Cashback <br/> 3000р </p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-11.png" alt="">
+            <div class="choice-sub__string">
+              <!--img(src="../img/icon-11.png" alt="")-->
               <p>Консультация специалиста <br/> по питанию</p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-12.png" alt="">
+            <div class="choice-sub__string">
+              <!--img(src="../img/icon-12.png" alt="")-->
               <p>Дневной рацион правильного <br/> питания от Формулы питания </p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-13.png" alt="">
+            <div class="choice-sub__string">
+              <!--img(src="../img/icon-13.png" alt="")-->
               <p>Солярия <br/> 20 мин.</p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-15.png" alt="">
+            <div class="choice-sub__string">
+              <!--img(src="../img/icon-15.png" alt="")-->
               <p>Настольный теннис <br/> 3 часов</p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-16.png" alt="">
+            <div class="choice-sub__string">
+              <!--img(src="../img/icon-16.png" alt="")-->
               <p>Заморозка карты <br/> 45 дней</p>
             </div>
             <!-- item-->
@@ -277,10 +374,11 @@
           <div class="col-md-4 choice-sub__column">
             <!-- item-->
             <div class="choice-sub__string">
-              <p class="p-bold align-center">Утренний абонемент</p>
+              <p class="p-bold align-center blue">Утренний абонемент</p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string middle-sale"><img src="../img/icon-17.png" alt="">
+            <div class="choice-sub__string middle-sale">
+              <!--img(src="../img/icon-17.png" alt="")-->
               <p><span class="text-line">19000р</span> <br/> <span class="text-big">15000р</span></p>
             </div>
             <!-- item-->
@@ -288,27 +386,33 @@
               <p class="align-center">Посещение клуба с 7 до 17 00 в <br/> будни с 9 до 22 в вх. и в праздники</p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-10.png" alt="">
+            <div class="choice-sub__string">
+              <!--img(src="../img/icon-10.png" alt="")-->
               <p>Cashback <br/> 1000р </p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-11.png" alt="">
+            <div class="choice-sub__string">
+              <!--img(src="../img/icon-11.png" alt="")-->
               <p>Консультация специалиста <br/> по питанию</p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-12.png" alt="">
+            <div class="choice-sub__string">
+              <!--img(src="../img/icon-12.png" alt="")-->
               <p>Дневной рацион правильного <br/> питания от Формулы питания </p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-13.png" alt="">
+            <div class="choice-sub__string">
+              <!--img(src="../img/icon-13.png" alt="")-->
               <p>Солярия <br/> 10 мин.</p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-15.png" alt="">
+            <div class="choice-sub__string">
+              <!--img(src="../img/icon-15.png" alt="")-->
               <p>Настольный теннис <br/> 2 часов</p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-16.png" alt="">
+            <div class="choice-sub__string">
+              <!--img(src="../img/icon-16.png" alt="")-->
               <p>Заморозка карты <br/> 45 дней</p>
             </div>
             <!-- item-->
@@ -405,7 +509,7 @@
       </div>
     </div>
     <!-- map-->
-    <div class="map"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A56ece857e7c0c5074b773f56db45ddee8e3accc598f03380f888faa9decf03fc&amp;width=100%25&amp;height=340&amp;lang=ru_RU&amp;scroll=false"></script></div>
+    <div class="map"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A56ece857e7c0c5074b773f56db45ddee8e3accc598f03380f888faa9decf03fc&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script></div>
     <!-- footer-->
     <footer>
       <!-- container-->

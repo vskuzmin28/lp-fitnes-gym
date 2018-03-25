@@ -3,6 +3,7 @@
 	// club photos
 
 	.club-photos-body {
+		display: none;
 		margin: 60px auto;
 		height: 160px;
 		position: relative;
@@ -13,8 +14,8 @@
 	}
 
   	& .prev {
-  		top: 80px;
-  		left: -4%;
+  		top: 90px;
+  		left: 1%;
   		margin-left: 0;
   		position: absolute;
   		display: block;
@@ -22,7 +23,7 @@
   		height: 47px;
   		overflow: hidden;
   		text-indent: -9999px;
-  		//background: url('../img/arrow.png') no-repeat;
+  		background: url('../img/arrow.png') no-repeat;
       -webkit-transform: rotate(180deg);
       transform: rotate(180deg);
       -ms-transform: rotate(180deg);
@@ -38,19 +39,86 @@
   	}
 
   	& .next {
-  		top: 80px;
+  		top: 90px;
   		//left: 77.8%;
-  		right: -2%;
-  		margin-left: -2%;
+  		right: 1%;
+  		margin-left: 0%;
   		position: absolute;
   		display: block;
   		width: 24px;
   		height: 47px;
   		overflow: hidden;
   		text-indent: -9999px;
-  		//background: url('../img/arrow.png') no-repeat;
+  		background: url('../img/arrow.png') no-repeat;
   		//border: 1px solid @white;
   		z-index: 99999;
+
+  		&:hover {
+  			background: url('../img/arrow.png') no-repeat;
+  			//border-color: @black;
+  		}
+
+  	}
+
+	.club-photos {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			margin: 0;
+			padding: 0;
+			float: left;
+		}
+
+	}
+
+	.club-photos__item {
+		width: auto;
+		height: 200px;
+		padding-bottom: 0px;
+		//background: url('../img/shadow.png') no-repeat bottom center;
+		//background-size: 90% auto;
+		overflow: hidden;
+
+		img {
+			display: block;
+			max-width: 100%;
+			height: auto;
+		}
+
+	}
+
+	// club photos-mobile
+
+	.club-photos-body-mobile {
+		display: block;
+		margin: 60px auto;
+		height: 160px;
+		position: relative;
+		//background: #e2ecf5;
+		//overflow: hidden;
+		//margin-bottom: 108px;
+		z-index: 5;
+	}
+
+  	& .prev {
+  		top: 60px;
+  		left: 1%;
+  		margin-left: 0;
+  		position: absolute;
+  		display: block;
+  		width: 24px;
+  		height: 47px;
+  		overflow: hidden;
+  		text-indent: -9999px;
+  		background: url('../img/arrow.png') no-repeat;
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+  		//border: 1px solid @white;
+  		z-index: 888;
 
   		&:hover {
   			//background: url('../img/arrow.png') no-repeat;
@@ -59,7 +127,29 @@
 
   	}
 
-	.club-photos {
+  	& .next {
+  		top: 60px;
+  		//left: 77.8%;
+  		right: 2%;
+  		margin-left: 0%;
+  		position: absolute;
+  		display: block;
+  		width: 24px;
+  		height: 47px;
+  		overflow: hidden;
+  		text-indent: -9999px;
+  		background: url('../img/arrow.png') no-repeat;
+  		//border: 1px solid @white;
+  		z-index: 99999;
+
+  		&:hover {
+  			background: url('../img/arrow.png') no-repeat;
+  			//border-color: @black;
+  		}
+
+  	}
+
+	.club-photos-mobile {
 		list-style: none;
 
 		li {
@@ -68,7 +158,7 @@
 
 	}
 
-	.club-photos__item {
+	.club-photos__item-mobile {
 		width: auto;
 		height: 200px;
 		padding-bottom: 0px;

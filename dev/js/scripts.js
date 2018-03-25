@@ -49,3 +49,12 @@ $('.club-photos').responsiveSlides({
   maxwidth: 1070,
   //namespace: "centered-controls"
 })
+
+$('.club-photos-mobile').responsiveSlides({
+  auto: false,
+  pager: false,
+  nav: true,
+  speed: 0,
+  maxwidth: 1070,
+  //namespace: "centered-controls"
+})
