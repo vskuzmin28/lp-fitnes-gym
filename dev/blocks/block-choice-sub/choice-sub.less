@@ -1,16 +1,5 @@
 @media only screen and (min-width : @desktop) {
 
-	.table-a {
-		.choice-sub__column {
-			display: block;
-		}
-		.choice-sub-mobile-table {
-			display: none;
-			margin: 0px auto;
-			width: 160px;
-		}
-	}
-
 	// choice sub
 
 	.choice-sub {
@@ -38,15 +27,16 @@
 		//border-bottom: 1px solid @white;
 		
 		p {
-			vertical-align: middle;
+			float: left;
 			font: 16px 'helveticaneuecyrmedium';
 		}
 
 		img {
+			margin-right: 16px;
 			display: block;
-			margin: 0 auto;
-			width: 24px;
-			height: 24px;
+			float: left;
+			width: 32px !important;
+			height: 32px !important;
 		}
 
 		p.p-bold {
@@ -68,10 +58,20 @@
 
 	.align-center {
 		text-align: center;
+		float: none !important;
+	}
+
+	.middle-sale {
+		margin: -10px auto 10px auto;
+		width: 110px;
 	}
 
 	.text-line {
 		text-decoration: line-through;
+	}
+
+	.text-big {
+		font-size: 18px;
 	}
 
 	.action-cashback {

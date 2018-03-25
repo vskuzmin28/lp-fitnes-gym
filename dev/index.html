@@ -24,7 +24,7 @@
             <!-- navigation-->
             <nav class="navigation header__navigation">
               <ul>
-                <li><a data-easing="easeInQuad" href="#blockContacts" title="">О клубе</a></li>
+                <li><a data-easing="easeInQuad" href="#blockAbout" title="">О клубе</a></li>
                 <li><a data-easing="easeInQuad" href="#blockChoiceSub" title="">Абонементы</a></li>
                 <li><a data-easing="easeInQuad" href="#blockContacts" title="">Контакты</a></li>
               </ul>
@@ -35,9 +35,9 @@
             <div class="contacts-info header__contacts-info">
               <!-- phone number-->
               <div class="contacts-info__phone">
-                <h4>(3812) <span>38-30-20</span></h4><a href="#" title="">Заказать звонок</a>
+                <h4>(3812) <span>38-30-20</span></h4><a class="link-call-popup" href="#" title="">Заказать звонок</a>
               </div>
-              <!-- action--><a class="contacts-info__action btn-red" href="">Зарезервировать</a>
+              <!-- action--><a class="contacts-info__action btn-red link-call-popup" href="">Зарезервировать</a>
             </div>
           </div>
         </div>
@@ -102,7 +102,7 @@
       </div>
     </div>
     <!-- about-->
-    <div class="about">
+    <div class="about" id="blockAbout">
       <!-- container-->
       <div class="container">
         <div class="row">
@@ -118,31 +118,31 @@
               <ul class="club-photos container">
                 <!-- item-->
                 <li class="row">
-                  <div class="col-md-4">
+                  <div class="col-xs-4 col-md-4">
                     <!-- item-->
-                    <div class="club-photos__item wow fadeInDowm"><a data-fancybox="club" href="../img/club/photo-1.jpg" title=""><img src="../img/club/photo-1.jpg" alt=""></a></div>
+                    <div class="club-photos__item wow fadeInDown"><a data-fancybox="club" href="../img/club/photo-1.jpg" title=""><img src="../img/club/photo-1.jpg" alt=""></a></div>
                   </div>
-                  <div class="col-md-4 wow">
+                  <div class="col-xs-4 col-md-4 wow">
                     <!-- item-->
-                    <div class="club-photos__item fadeInDowm"><a data-fancybox="club" href="../img/club/photo-2.jpg" title=""><img src="../img/club/photo-2.jpg" alt=""></a></div>
+                    <div class="club-photos__item wow fadeInDown"><a data-fancybox="club" href="../img/club/photo-2.jpg" title=""><img src="../img/club/photo-2.jpg" alt=""></a></div>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-xs-4 col-md-4">
                     <!-- item-->
-                    <div class="club-photos__item wow fadeInDowm"><a data-fancybox="club" href="../img/club/photo-3.jpg" title=""><img src="../img/club/photo-3.jpg" alt=""></a></div>
+                    <div class="club-photos__item wow fadeInDown"><a data-fancybox="club" href="../img/club/photo-3.jpg" title=""><img src="../img/club/photo-3.jpg" alt=""></a></div>
                   </div>
                 </li>
                 <!-- / item-->
                 <!-- item-->
                 <li class="row">
-                  <div class="col-md-4">
+                  <div class="col-xs-4 col-md-4">
                     <!-- item-->
                     <div class="club-photos__item"><a data-fancybox="club" href="../img/club/photo-4.jpg" title=""><img src="../img/club/photo-4.jpg" alt=""></a></div>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-xs-4 col-md-4">
                     <!-- item-->
                     <div class="club-photos__item"><a data-fancybox="club" href="../img/club/photo-5.jpg" title=""><img src="../img/club/photo-5.jpg" alt=""></a></div>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-xs-4 col-md-4">
                     <!-- item-->
                     <div class="club-photos__item"><a data-fancybox="club" href="../img/club/photo-6.jpg" title=""><img src="../img/club/photo-6.jpg" alt=""></a></div>
                   </div>
@@ -178,7 +178,7 @@
       </div>
     </div>
     <!-- choice sub-->
-    <div class="choice-sub">
+    <div class="choice-sub" id="blockChoiceSub">
       <!-- container-->
       <div class="container">
         <div class="row">
@@ -188,158 +188,139 @@
         </div>
         <!-- table-->
         <div class="row table-a">
-          <div class="choice-sub-mobile-table"><a class="btn-red" href="../img/table.png" title="">Смотреть тарифы</a></div>
-          <div class="col-md-3 choice-sub__column">
+          <div class="col-md-4 choice-sub__column">
             <!-- item-->
             <div class="choice-sub__string">
-              <p class="p-bold align-center">&nbsp;</p>
+              <p class="p-bold align-center">Годовой абонемент Безлимитный</p>
+            </div>
+            <!-- item-->
+            <div class="choice-sub__string middle-sale"><img src="../img/icon-17.png" alt="">
+              <p><span class="text-line">35000р</span> <br/> <span class="text-big">28000р</span></p>
             </div>
             <!-- item-->
             <div class="choice-sub__string">
-              <p>Время посещения</p>
+              <p class="align-center">Безлимитное посещение клуба, посещение групповых программ, SPA зона </p>
+            </div>
+            <!-- item-->
+            <div class="choice-sub__string"><img src="../img/icon-10.png" alt="">
+              <p>Cashback <br/> 5000р </p>
+            </div>
+            <!-- item-->
+            <div class="choice-sub__string"><img src="../img/icon-11.png" alt="">
+              <p>Консультация специалиста <br/> по питанию</p>
+            </div>
+            <!-- item-->
+            <div class="choice-sub__string"><img src="../img/icon-12.png" alt="">
+              <p>Дневной рацион правильного <br/> питания от Формулы питания </p>
+            </div>
+            <!-- item-->
+            <div class="choice-sub__string"><img src="../img/icon-13.png" alt="">
+              <p>Солярия <br/> 30 мин.</p>
+            </div>
+            <!-- item-->
+            <div class="choice-sub__string"><img src="../img/icon-14.png" alt="">
+              <p>Индивидуальный шкафчик <br/> 1 мес.</p>
+            </div>
+            <!-- item-->
+            <div class="choice-sub__string"><img src="../img/icon-15.png" alt="">
+              <p>Настольный теннис <br/> 5 часов</p>
+            </div>
+            <!-- item-->
+            <div class="choice-sub__string"><img src="../img/icon-16.png" alt="">
+              <p>Заморозка карты <br/> 45 дней</p>
+            </div>
+            <!-- item-->
+            <div class="choice-sub__string"><a class="btn-red link-call-popup" href="#" title="">Забронировать абонемент с Cashback</a></div>
+          </div>
+          <div class="col-md-4 choice-sub__column">
+            <!-- item-->
+            <div class="choice-sub__string">
+              <p class="p-bold align-center">Дневной абонемент</p>
+            </div>
+            <!-- item-->
+            <div class="choice-sub__string middle-sale"><img src="../img/icon-17.png" alt="">
+              <p><span class="text-line">28000р</span> <br/> <span class="text-big">23000р</span></p>
             </div>
             <!-- item-->
             <div class="choice-sub__string">
-              <p>Цена</p>
+              <p class="align-center">Посещение клуба с 7 до 17 00 в <br/> будни с 9 до 22 в вх. и в праздники</p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string">
-              <p>Cashback</p>
+            <div class="choice-sub__string"><img src="../img/icon-10.png" alt="">
+              <p>Cashback <br/> 3000р </p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string">
-              <p>Полотенце на каждую тренировку и безлимитная SPA-зона</p>
+            <div class="choice-sub__string"><img src="../img/icon-11.png" alt="">
+              <p>Консультация специалиста <br/> по питанию</p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string">
-              <p>Персональная тренировка с тренером</p>
+            <div class="choice-sub__string"><img src="../img/icon-12.png" alt="">
+              <p>Дневной рацион правильного <br/> питания от Формулы питания </p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string">
-              <p>Консультация специалиста по питанию и составление рациона питания</p>
+            <div class="choice-sub__string"><img src="../img/icon-13.png" alt="">
+              <p>Солярия <br/> 20 мин.</p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string">
-              <p>День сбалансированного питания от “Формула питания”</p>
+            <div class="choice-sub__string"><img src="../img/icon-15.png" alt="">
+              <p>Настольный теннис <br/> 3 часов</p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string">
-              <p>Персональный шкафчик</p>
-            </div>
-            <!-- item-->
-            <div class="choice-sub__string">
-              <p>Заморозка до 60 дней</p>
+            <div class="choice-sub__string"><img src="../img/icon-16.png" alt="">
+              <p>Заморозка карты <br/> 45 дней</p>
             </div>
             <!-- item-->
             <div class="choice-sub__string"></div>
+            <!-- item-->
+            <div class="choice-sub__string"><a class="btn-red link-call-popup" href="#" title="">Забронировать абонемент с Cashback</a></div>
           </div>
-          <div class="col-md-3 choice-sub__column">
+          <div class="col-md-4 choice-sub__column">
             <!-- item-->
             <div class="choice-sub__string">
-              <p class="p-bold align-center">Дневной</p>
+              <p class="p-bold align-center">Утренний абонемент</p>
+            </div>
+            <!-- item-->
+            <div class="choice-sub__string middle-sale"><img src="../img/icon-17.png" alt="">
+              <p><span class="text-line">19000р</span> <br/> <span class="text-big">15000р</span></p>
             </div>
             <!-- item-->
             <div class="choice-sub__string">
-              <p class="align-center">(буд. 6.30-24.00; вых. 9.00-21.00)</p>
+              <p class="align-center">Посещение клуба с 7 до 17 00 в <br/> будни с 9 до 22 в вх. и в праздники</p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string">
-              <p class="align-center text-line">
-                 38 000 ₽	</p>
-              <p class="align-center">26 000 ₽</p>
+            <div class="choice-sub__string"><img src="../img/icon-10.png" alt="">
+              <p>Cashback <br/> 1000р </p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string">
-              <p class="align-center">2000 ₽</p>
+            <div class="choice-sub__string"><img src="../img/icon-11.png" alt="">
+              <p>Консультация специалиста <br/> по питанию</p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-8.png" alt=""></div>
-            <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-8.png" alt=""></div>
-            <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-8.png" alt=""></div>
-            <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-9.png" alt=""></div>
-            <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-9.png" alt=""></div>
-            <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-9.png" alt=""></div>
-            <!-- item-->
-            <div class="choice-sub__string"><a class="btn-red" href="#" title="">Забронировать абонемент с Cashback</a></div>
-          </div>
-          <div class="col-md-3 choice-sub__column">
-            <!-- item-->
-            <div class="choice-sub__string">
-              <p class="p-bold align-center">Безлимитный 12 мес</p>
+            <div class="choice-sub__string"><img src="../img/icon-12.png" alt="">
+              <p>Дневной рацион правильного <br/> питания от Формулы питания </p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string">
-              <p>(буд. 6.30-24.00; вых. 9.00-21.00)</p>
+            <div class="choice-sub__string"><img src="../img/icon-13.png" alt="">
+              <p>Солярия <br/> 10 мин.</p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string">
-              <p class="align-center text-line">
-                 38 000 ₽	</p>
-              <p class="align-center">26 000 ₽</p>
+            <div class="choice-sub__string"><img src="../img/icon-15.png" alt="">
+              <p>Настольный теннис <br/> 2 часов</p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string">
-              <p class="align-center">5000 ₽</p>
+            <div class="choice-sub__string"><img src="../img/icon-16.png" alt="">
+              <p>Заморозка карты <br/> 45 дней</p>
             </div>
             <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-8.png" alt=""></div>
+            <div class="choice-sub__string"></div>
             <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-8.png" alt=""></div>
-            <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-8.png" alt=""></div>
-            <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-8.png" alt=""></div>
-            <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-8.png" alt=""></div>
-            <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-8.png" alt=""></div>
-            <!-- item-->
-            <div class="choice-sub__string"><a class="btn-red" href="#" title="">Забронировать абонемент с Cashback</a></div>
-          </div>
-          <div class="col-md-3 choice-sub__column">
-            <!-- item-->
-            <div class="choice-sub__string">
-              <p class="p-bold align-center">Утренний</p>
-            </div>
-            <!-- item-->
-            <div class="choice-sub__string">
-              <p>(буд. 6.30-24.00; вых. 9.00-21.00)</p>
-            </div>
-            <!-- item-->
-            <div class="choice-sub__string">
-              <p class="align-center text-line">
-                 38 000 ₽	</p>
-              <p class="align-center">26 000 ₽</p>
-            </div>
-            <!-- item-->
-            <div class="choice-sub__string">
-              <p class="align-center">1000 ₽</p>
-            </div>
-            <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-8.png" alt=""></div>
-            <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-8.png" alt=""></div>
-            <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-8.png" alt=""></div>
-            <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-9.png" alt=""></div>
-            <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-9.png" alt=""></div>
-            <!-- item-->
-            <div class="choice-sub__string"><img src="../img/icon-9.png" alt=""></div>
-            <!-- item-->
-            <div class="choice-sub__string"><a class="btn-red" href="#" title="">Забронировать абонемент с Cashback</a></div>
+            <div class="choice-sub__string"><a class="btn-red link-call-popup" href="#" title="">Забронировать абонемент с Cashback</a></div>
           </div>
         </div>
         <!-- action cashback-->
         <div class="row action-cashback">
           <div class="col-md-12">
-            <h3>Приобретайте абонементы с Cashback онлайн и получите дополнительную скидку 3%</h3><a class="btn-red" href="" title="">Купить онлайн</a>
+            <h3>Приобретайте абонементы с Cashback онлайн и получите дополнительную скидку 3%</h3><a class="btn-red link-call-popup" href="" title="">Купить онлайн</a>
           </div>
         </div>
       </div>
@@ -357,7 +338,7 @@
       </div>
     </div>
     <!-- contacts-->
-    <div class="contacts">
+    <div class="contacts" id="blockContacts">
       <!-- container-->
       <div class="container">
         <div class="row">
@@ -378,15 +359,16 @@
             <form class="send-form" action="/" method="post">
               <h4>Остались вопросы? <br/> Давайте мы вам перезвоним!</h4>
               <div class="field-input">
-                <input type="text" name="" placeholder="Имя" required>
+                <input type="text" name="name" placeholder="Имя" required>
               </div>
               <div class="field-input">
-                <input type="text" name="" placeholder="Номер телефона" required>
+                <input type="text" name="tel" placeholder="Номер телефона" required>
               </div>
               <div class="field-input">
-                <input type="text" name="" placeholder="Ваш вопрос" required>
+                <input type="text" name="mess" placeholder="Ваш вопрос" required>
               </div>
               <div class="field-button">
+                <input type="hidden" id="action" name="action" value="submitform">
                 <input class="btn-red" type="submit" value="Заказать обратный звонок">
               </div>
             </form>
@@ -407,7 +389,7 @@
             <!-- navigation-->
             <nav class="navigation header__navigation">
               <ul>
-                <li><a data-easing="easeInQuad" href="#blockContacts" title="">О клубе</a></li>
+                <li><a data-easing="easeInQuad" href="#blockAbout" title="">О клубе</a></li>
                 <li><a data-easing="easeInQuad" href="#blockChoiceSub" title="">Абонементы</a></li>
                 <li><a data-easing="easeInQuad" href="#blockContacts" title="">Контакты</a></li>
               </ul>
@@ -435,6 +417,38 @@
         </div>
       </div>
     </footer>
+    <!-- popups-->
+    <!-- call popup-->
+    <div class="popup call-popup">
+      <!-- icon close--><a class="popup__icon-close" href="#" title=""><img src="../img/icons/icon-close.png" alt=""></a>
+      <h4>Запрос <br/> информации на почту</h4>
+      <form class="send-form" action="mail.php" method="post">
+        <div class="popup__input">
+          <input type="text" name="name" placeholder="Ваше ФИО*" required>
+        </div>
+        <div class="popup__input">
+          <input type="text" name="tel" placeholder="Ваш телефон*" required>
+        </div>
+        <div class="popup__input">
+          <input type="text" name="email" placeholder="Ваш e-mail">
+        </div>
+        <div class="popup__checkbox">
+          <label>
+            <input type="checkbox" checked required>
+            <p>Согласие на обработку персональных данных</p>
+          </label>
+        </div>
+        <div class="popup__button">
+          <input type="hidden" id="action" name="action" value="submitform">
+          <input class="button-blue" type="submit" value="Отправить">
+        </div>
+      </form>
+    </div>
+    <!-- thanks-->
+    <div class="popup popup-thanks">
+      <!-- icon close--><a class="popup__icon-close" href="#" title=""><img src="../img/icon-close.png" alt=""></a>
+      <p>Спасибо! Ваша заявка успешно отравлена!</p>
+    </div>
     <!-- scripts-->
     <script src="../js/jquery-3.2.1.min.js"></script>
     <script src="../js/jquery.bpopup.min.js"></script>

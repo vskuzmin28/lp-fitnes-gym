@@ -8,15 +8,16 @@
         <form class="send-form" action="/" method="post">
           <h4>Остались вопросы? <br/> Давайте мы вам перезвоним!</h4>
           <div class="field-input">
-            <input type="text" name="" placeholder="Имя" required="required"/>
+            <input type="text" name="name" placeholder="Имя" required="required"/>
           </div>
           <div class="field-input">
-            <input type="text" name="" placeholder="Номер телефона" required="required"/>
+            <input type="text" name="tel" placeholder="Номер телефона" required="required"/>
           </div>
           <div class="field-input">
-            <input type="text" name="" placeholder="Ваш вопрос" required="required"/>
+            <input type="text" name="mess" placeholder="Ваш вопрос" required="required"/>
           </div>
           <div class="field-button">
+            <input type="hidden" id="action" name="action" value="submitform"/>
             <input class="btn-red" type="submit" value="Заказать обратный звонок"/>
           </div>
         </form>

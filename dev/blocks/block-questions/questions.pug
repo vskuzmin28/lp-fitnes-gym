@@ -15,15 +15,16 @@
 						| Остались вопросы? <br/> Давайте мы вам перезвоним!
 
 					.field-input
-						input(type="text" name="" placeholder="Имя" required)
+						input(type="text" name="name" placeholder="Имя" required)
 
 					.field-input
-						input(type="text" name="" placeholder="Номер телефона" required)
+						input(type="text" name="tel" placeholder="Номер телефона" required)
 
 					.field-input
-						input(type="text" name="" placeholder="Ваш вопрос" required)
+						input(type="text" name="mess" placeholder="Ваш вопрос" required)
 
 					.field-button
+						input(type="hidden" id="action" name="action" value="submitform")
 						input.btn-red(type="submit" value="Заказать обратный звонок")
 
 			.col-md-9
