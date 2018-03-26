@@ -28,184 +28,29 @@
 
 		.row
 
-			.col-md-12
-
-				// slider
-
-				.club-photos-body
-
-					ul.club-photos.container
-
-						// item
-
-						li.row
-						
-							.col-xs-4.col-md-4
-
-								// item
-
-								.club-photos__item.wow.fadeInDown
-									a(data-fancybox="club" href="../img/club/photo-1.jpg" title="")
-										img(src="../img/club/photo-1.jpg" alt="")
-
-							.col-xs-4.col-md-4.wow
-
-								// item
-
-								.club-photos__item.wow.fadeInDown
-									a(data-fancybox="club" href="../img/club/photo-2.jpg" title="")
-										img(src="../img/club/photo-2.jpg" alt="")
-
-							.col-xs-4.col-md-4
-
-								// item
-
-								.club-photos__item.wow.fadeInDown
-									a(data-fancybox="club" href="../img/club/photo-3.jpg" title="")
-										img(src="../img/club/photo-3.jpg" alt="")
-
-						// / item
-
-						// item
-
-						li.row
-						
-							.col-xs-4.col-md-4
-
-								// item
-
-								.club-photos__item
-									a(data-fancybox="club" href="../img/club/photo-4.jpg" title="")
-										img(src="../img/club/photo-4.jpg" alt="")
-
-							.col-xs-4.col-md-4
-
-								// item
-
-								.club-photos__item
-									a(data-fancybox="club" href="../img/club/photo-5.jpg" title="")
-										img(src="../img/club/photo-5.jpg" alt="")
-
-							.col-xs-4.col-md-4
-
-								// item
-
-								.club-photos__item
-									a(data-fancybox="club" href="../img/club/photo-6.jpg" title="")
-										img(src="../img/club/photo-6.jpg" alt="")
-
-						// / item
-
-				// slider
-
-				.club-photos-body-mobile
-
-					ul.club-photos-mobile.container
-
-						// item
-
-						li.row
-						
-							.col-xs-2.col-md-2
-
-							.col-xs-8.col-md-8
-
-								// item
-
-								.club-photos__item-mobile.wow.fadeInDown
-									a(data-fancybox="club" href="../img/club/photo-1.jpg" title="")
-										img(src="../img/club/photo-1.jpg" alt="")
-
-							.col-xs-2.col-md-2
-
-						// / item
-
-						// item
-
-						li.row
-						
-							.col-xs-2.col-md-2
-
-							.col-xs-8.col-md-8
-
-								// item
-
-								.club-photos__item-mobile.wow.fadeInDown
-									a(data-fancybox="club" href="../img/club/photo-2.jpg" title="")
-										img(src="../img/club/photo-2.jpg" alt="")
-
-							.col-xs-2.col-md-2
-
-						// / item
-
-						// item
-
-						li.row
-						
-							.col-xs-2.col-md-2
-
-							.col-xs-8.col-md-8
-
-								// item
-
-								.club-photos__item-mobile.wow.fadeInDown
-									a(data-fancybox="club" href="../img/club/photo-3.jpg" title="")
-										img(src="../img/club/photo-3.jpg" alt="")
-
-							.col-xs-2.col-md-2
-
-						// / item
-
-						// item
-
-						li.row
-						
-							.col-xs-2.col-md-2
-
-							.col-xs-8.col-md-8
-
-								// item
-
-								.club-photos__item-mobile.wow.fadeInDown
-									a(data-fancybox="club" href="../img/club/photo-4.jpg" title="")
-										img(src="../img/club/photo-4.jpg" alt="")
-
-							.col-xs-2.col-md-2
-
-						// / item
-
-						// item
-
-						li.row
-						
-							.col-xs-2.col-md-2
-
-							.col-xs-8.col-md-8
-
-								// item
-
-								.club-photos__item-mobile.wow.fadeInDown
-									a(data-fancybox="club" href="../img/club/photo-5.jpg" title="")
-										img(src="../img/club/photo-5.jpg" alt="")
-
-							.col-xs-2.col-md-2
-
-						// / item
-
-						// item
-
-						li.row
-						
-							.col-xs-2.col-md-2
-
-							.col-xs-8.col-md-8
-
-								// item
-
-								.club-photos__item-mobile.wow.fadeInDown
-									a(data-fancybox="club" href="../img/club/photo-6.jpg" title="")
-										img(src="../img/club/photo-6.jpg" alt="")
-
-							.col-xs-2.col-md-2
-
-						// / item
+			.col-md-1
+
+			.col-md-10
+
+			
+				#carousel-example-generic.carousel.slide(data-ride='carousel')
+					ol.carousel-indicators
+						li.active(data-target='#carousel-example-generic' data-slide-to='0')
+						li(data-target='#carousel-example-generic' data-slide-to='1')
+						li(data-target='#carousel-example-generic' data-slide-to='2')
+					.carousel-inner
+						.item.active
+							img(alt='First slide' src='../img/club/photo-1.jpg')
+							.carousel-caption
+								h2
+									| Финская сауна
+						.item
+							img(alt='Second slide' src='../img/club/photo-2.jpg')
+						.item
+							img(alt='Third slide' src='../img/club/photo-3.jpg')
+					a.left.carousel-control(href='#carousel-example-generic' data-slide='prev')
+						span.glyphicon.glyphicon-chevron-left
+					a.right.carousel-control(href='#carousel-example-generic' data-slide='next')
+						span.glyphicon.glyphicon-chevron-right
+
+			.col-md-1

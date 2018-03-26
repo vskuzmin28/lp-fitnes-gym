@@ -16,19 +16,22 @@
 	}
 
 	.choice-sub__column {
-		padding: 20px;
+		padding: 20px 20px 40px 20px;
 		border-right: 1px solid rgba(255, 255, 255, 0.1);
 		background: rgba(0,0,0,0.5);
 	}
 
 	.choice-sub__string {
-		margin-bottom: 20px;
-		height: 50px;
+		margin: 0 30px;
+		overflow: hidden;
+		margin-bottom: 2px;
+		height: auto;
 		//border-bottom: 1px solid @white;
 		
 		p {
+			vertical-align: middle;
 			float: left;
-			font: 16px 'helveticaneuecyrmedium';
+			font: 16px 'helveticaneuecyrmedium', 'tahoma';
 		}
 
 		img {
@@ -76,7 +79,7 @@
 
 	.action-cashback {
 		height: auto;
-		margin-top: 50px;
+		margin-top: 10px;
 
 		h3 {
 			font-size: 26px;
@@ -104,7 +107,12 @@
 	}
 
 	.red, .blue, .yellow {
+		font-size: 22px !important;
 		text-transform: uppercase;
+	}
+
+	.height-big {
+		height: 50px;
 	}
 
 }
